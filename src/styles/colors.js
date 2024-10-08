@@ -1,4 +1,4 @@
-export const colors = {
+const colors = {
     primaryRed: "#B22222", // Тёмно-красный
     secondaryRed: "#FF6347", // Красный
     accentRed: "#FF4500", // Оранжево-красный
@@ -11,3 +11,5 @@ export const colors = {
     cardBackground: "#FFFFFF", // Фон карточек
     dividerColor: "#E0E0E0", // Цвет разделителя
 };
+
+export default colors;
