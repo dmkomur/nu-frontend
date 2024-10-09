@@ -4,18 +4,20 @@ import {
     HeroTitle,
     HeroSubtitle,
 } from "./Hero.styled";
-import Container from "../Container";
+import Logo from "../Logo/Logo";
+import Container from "../common/container/Container";
 
 const Hero = () => {
     return (
-        <HeroSection>
-            <Container>
+        <Container>
+            <HeroSection>
+                <Logo />
                 <HeroContent>
                     <HeroTitle>Explore the Fjords</HeroTitle>
                     <HeroSubtitle>Discover the beauty of nature</HeroSubtitle>
                 </HeroContent>
-            </Container>
-        </HeroSection>
+            </HeroSection>
+        </Container>
     );
 };
 
