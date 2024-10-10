@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Container from "../components/common/container/Container";
 import axios from "axios";
+import ExpressionCard from "../components/ExpressionCard/ExpressionCard";
 
 const ExpresionsPage = () => {
     const [expressions, setExpressions] = useState([]);
@@ -10,23 +11,28 @@ const ExpresionsPage = () => {
             .get("http://localhost:3000/phrases")
             .then((response) => {
                 setExpressions(response.data);
-                setLoading(false); // Устанавливаем загрузку в false после получения данных
+                setLoading(false);
             })
             .catch((error) => {
                 console.error("Error fetching expressions:", error);
-                setLoading(false); // Устанавливаем загрузку в false в случае ошибки
+                setLoading(false);
             });
     }, []);
 
     return (
         <Container>
-            {loading ? (
-                <p>Loading...</p> // Сообщение о загрузке
-            ) : (
-                expressions.map((expression) => (
-                    <p key={expression.id || expression.no}>{expression.no}</p>
-                ))
-            )}
+            <div style={{ display: "flex", flexDirection: "row", gap: "16px" }}>
+                {loading ? (
+                    <p>Loading...</p>
+                ) : (
+                    expressions.map((expression) => (
+                        <ExpressionCard
+                            key={expression.id}
+                            expression={expression}
+                        />
+                    ))
+                )}
+            </div>
         </Container>
     );
 };
