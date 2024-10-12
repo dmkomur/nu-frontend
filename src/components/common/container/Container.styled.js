@@ -12,11 +12,11 @@ const StyledContainer = styled.div`
     }
 
     @media (min-width: ${breakpoints.tablet}) {
-        padding: 0 20px;
+        padding: 0 12px;
     }
 
     @media (min-width: ${breakpoints.desktop}) {
-        padding: 0 40px;
+        padding: 0 16px;
     }
 `;
 export default StyledContainer;
