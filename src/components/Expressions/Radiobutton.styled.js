@@ -5,7 +5,9 @@ const StyledRadioButton = styled.label`
     background-color: ${(props) =>
         props.checked ? materialPalette.primary : materialPalette.onPrimary};
     color: ${(props) =>
-        props.checked ? materialPalette.onPrimary : materialPalette.primary};
+        props.checked
+            ? materialPalette.surfaceLightBlue
+            : materialPalette.primary};
     font-size: 24px;
     padding: 8px 16px;
     border-radius: 20px;

@@ -38,13 +38,13 @@ export const StyledCard = styled.div`
     }
 `;
 
-export const StyledTextNo = styled.text`
+export const StyledTextNo = styled.p`
     font-size: 24px;
     margin: 10px 0;
     text-align: center;
     color: ${materialPalette.secondaryVariant};
 `;
-export const StyledTextUa = styled.text`
+export const StyledTextUa = styled.p`
     font-size: 24px;
     margin: 10px 0;
     text-align: center;
