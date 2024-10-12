@@ -12,6 +12,7 @@ const materialPalette = {
     // Background colors
     background: "#F5F5F5", // Светло-серый фон
     onBackground: "#000000", // Черный текст на светлом фоне
+    backgroundHero: "#c5d3d0",
 
     // Surface colors (элементы на поверхности)
     surface: "#FFFFFF", // Белый для поверхностей (карточки и т.д.)

@@ -1,25 +1,66 @@
 import styled from "styled-components";
 import breakpoints from "../../styles/breakpoints";
-import colors from "../../styles/colors";
-
+import materialPalette from "../../styles/palette";
 export const StyledLogoWrapper = styled.div`
     display: flex;
     gap: 8px;
-    padding: 4px;
     justify-content: center;
     cursor: pointer;
     &:hover p {
-        color: ${colors.accentRed};
+        color: ${materialPalette.secondary};
     }
 `;
 
 export const StyledLogoText = styled.p`
-    font-family: "Pacifico", sans-serif;
-    font-size: 32px;
-    color: white;
+    font-family: "Abril Fatface", serif;
+    font-size: 28px;
+    color: ${materialPalette.primary};
     transition: color 300ms ease;
+    position: relative;
+    span {
+        color: ${materialPalette.secondary};
+    }
+    &::before {
+        content: "";
+        position: absolute;
+        left: calc(50% - 10px);
+        top: 2px;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background-color: #005eb8;
+        transition: top 300ms ease;
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        left: calc(50% + 8px);
+        top: 2px;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background-color: #ffd700;
+        transition: top 300ms ease;
+    }
+
+    &:hover::before {
+        top: 0px;
+    }
+
+    &:hover::after {
+        top: 0px;
+    }
     @media (min-width: ${breakpoints.tablet}) {
         font-size: 36px;
+        &::before {
+            content: "";
+            top: 6px;
+        }
+
+        &::after {
+            top: 6px;
+        }
     }
 
     @media (min-width: ${breakpoints.desktop}) {

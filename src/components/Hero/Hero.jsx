@@ -4,20 +4,20 @@ import {
     HeroTitle,
     HeroSubtitle,
 } from "./Hero.styled";
-import Logo from "../Logo/Logo";
 import Container from "../common/container/Container";
 
 const Hero = () => {
     return (
-        <Container>
-            <HeroSection>
-                <Logo />
+        <HeroSection>
+            <Container>
                 <HeroContent>
-                    <HeroTitle>Explore the Fjords</HeroTitle>
-                    <HeroSubtitle>Discover the beauty of nature</HeroSubtitle>
+                    <HeroTitle>Крок до Норвегії</HeroTitle>
+                    <HeroSubtitle>
+                        Інтегруйся в нове життя з норвезькою мовою
+                    </HeroSubtitle>
                 </HeroContent>
-            </HeroSection>
-        </Container>
+            </Container>
+        </HeroSection>
     );
 };
 

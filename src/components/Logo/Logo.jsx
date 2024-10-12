@@ -7,8 +7,9 @@ import {
 const Logo = () => {
     return (
         <StyledLogoWrapper>
-            <StyledLogoPic src="/src/assets/logo.png" />
-            <StyledLogoText>NorwayU</StyledLogoText>
+            <StyledLogoText>
+                N<span>orway</span>U
+            </StyledLogoText>
         </StyledLogoWrapper>
     );
 };

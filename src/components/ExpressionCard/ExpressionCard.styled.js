@@ -17,11 +17,10 @@ export const StyledCard = styled.div`
     border-radius: 16px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 36px 20px 20px 20px;
-    width: 320px;
+    width: 280px;
     text-align: center;
     position: relative;
     transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-    margin: 10px;
     overflow: hidden;
     &:hover {
         transform: translateY(-4px);
