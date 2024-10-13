@@ -7,8 +7,9 @@ export const NavWrapper = styled.nav`
     justify-content: center;
     gap: 24px;
     padding: 8px 16px;
-    border-radius: 17px;
-    background-color: ${materialPalette.surfaceLightBlue};
+    border-radius: 22px;
+    border: 2px ${materialPalette.primary} solid;
+    background-color: ${materialPalette.surface};
     @media (max-width: 768px) {
         display: none;
     }
@@ -17,7 +18,7 @@ export const NavWrapper = styled.nav`
 export const StyledNavLink = styled(NavLink)`
     text-decoration: none;
     font-size: 22px;
-    font-weight: 700;
+    font-weight: 400;
     color: ${materialPalette.primary};
     transition: color 300ms ease;
 

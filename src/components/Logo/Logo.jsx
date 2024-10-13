@@ -1,12 +1,8 @@
-import {
-    StyledLogoPic,
-    StyledLogoText,
-    StyledLogoWrapper,
-} from "./Logo.styled";
+import { StyledLogoText, StyledLogoWrapper } from "./Logo.styled";
 
 const Logo = () => {
     return (
-        <StyledLogoWrapper>
+        <StyledLogoWrapper to="/">
             <StyledLogoText>
                 N<span>orway</span>U
             </StyledLogoText>

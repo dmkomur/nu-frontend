@@ -1,7 +1,8 @@
 import styled from "styled-components";
 import breakpoints from "../../styles/breakpoints";
 import materialPalette from "../../styles/palette";
-export const StyledLogoWrapper = styled.div`
+import { Link } from "react-router-dom";
+export const StyledLogoWrapper = styled(Link)`
     display: flex;
     gap: 8px;
     justify-content: center;
