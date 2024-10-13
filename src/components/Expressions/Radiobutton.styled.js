@@ -10,7 +10,7 @@ const StyledRadioButton = styled.label`
             : materialPalette.primary};
     font-size: 24px;
     padding: 8px 16px;
-    border-radius: 20px;
+    border-radius: 24px;
     text-align: center;
     cursor: pointer;
     transition: all 300ms ease;

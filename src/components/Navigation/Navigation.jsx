@@ -6,6 +6,8 @@ import {
     MobileMenuButton,
     Overlay,
 } from "./Navigation.styled";
+import IconHamburgerMenu from "../common/svg/BurgerSvg";
+import IconClose from "../common/svg/CloseSvg";
 
 const Navigation = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -25,7 +27,9 @@ const Navigation = () => {
                 <StyledNavLink to="/expressions">ВИРАЗИ</StyledNavLink>
             </NavWrapper>
 
-            <MobileMenuButton open={isOpen} onClick={toggleMenu} />
+            <MobileMenuButton open={isOpen} onClick={toggleMenu}>
+                {isOpen ? <IconClose /> : <IconHamburgerMenu />}
+            </MobileMenuButton>
 
             <MobileMenu open={isOpen}>
                 <StyledNavLink to="/grammar" onClick={closeMenu}>

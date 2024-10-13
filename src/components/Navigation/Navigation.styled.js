@@ -42,15 +42,17 @@ export const MobileMenuButton = styled.button`
     cursor: pointer;
     position: fixed;
     top: 10px;
-    right: 20px;
+    right: 2px;
     z-index: 1001;
     @media (max-width: 768px) {
         display: block;
     }
 
-    &::before {
-        content: ${({ open }) => (open ? '"✕"' : '"☰"')};
-        font-size: 40px;
+    svg {
+        stroke: ${({ open }) =>
+            open ? materialPalette.secondary : materialPalette.primary};
+        fill: ${({ open }) =>
+            open ? materialPalette.secondary : materialPalette.primary};
     }
 `;
 
@@ -62,11 +64,12 @@ export const MobileMenu = styled.div`
     width: 250px;
     background-color: ${materialPalette.surface};
     box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
-    padding: 80px 20px;
+    padding: 100px 20px;
     z-index: 1000;
     transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
     transition: transform 0.3s ease-in-out;
     display: flex;
+    gap: 16px;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
