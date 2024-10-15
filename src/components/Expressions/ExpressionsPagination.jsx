@@ -50,12 +50,12 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
 
     return (
         <StyledPaginationWrapper>
-            <StyledPaginationWrapper
+            <StyledPaginationButton
                 onClick={handlePrev}
                 disabled={currentPage === 1}
             >
                 Prev
-            </StyledPaginationWrapper>
+            </StyledPaginationButton>
             {pages.map((page, index) => {
                 if (page === "...") {
                     return <span key={index}>...</span>;

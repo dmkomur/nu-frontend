@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import materialPalette from "../../styles/palette";
 
 export const StyledPaginationWrapper = styled.div`
     display: flex;
@@ -9,24 +10,32 @@ export const StyledPaginationWrapper = styled.div`
 `;
 
 export const StyledPaginationButton = styled.button`
-    background-color: #f0f0f0;
+    background-color: ${materialPalette.surface};
     border: none;
     padding: 8px 12px;
-    font-size: 14px;
-    border-radius: 4px;
+    font-size: 16px;
+    border-radius: 16px;
     cursor: pointer;
-
+    transition: all 300ms ease;
     &:hover {
-        background-color: #e0e0e0;
+        transform: translateY(-2px);
+        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+        transition: all 300ms ease;
+    }
+    &:hover {
+        background-color: ${materialPalette.surface};
     }
 
     &:disabled {
-        background-color: #cccccc;
+        background-color: ${materialPalette.surfaceVariant};
         cursor: not-allowed;
     }
 `;
 
 export const StyledPageNumber = styled.span`
-    font-weight: ${(props) => (props.active ? "bold" : "normal")};
-    color: ${(props) => (props.active ? "#007bff" : "#000")};
+    font-weight: ${(props) => (props["data-active"] ? 700 : 400)};
+    color: ${(props) =>
+        props["data-active"]
+            ? materialPalette.secondary
+            : materialPalette.primary};
 `;

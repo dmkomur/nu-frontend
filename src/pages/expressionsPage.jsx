@@ -8,7 +8,7 @@ import StyledRadioButton from "../components/Expressions/Radiobutton.styled";
 import Pagination from "../components/Expressions/ExpressionsPagination";
 
 const ExpresionsPage = () => {
-    const options = ["Все", "Побут", "Школа"];
+    const options = ["Все", "Побут", "Школа", "Лікарня"];
 
     const [expressions, setExpressions] = useState([]);
     const [loading, setLoading] = useState(true);
@@ -58,12 +58,7 @@ const ExpresionsPage = () => {
                     </StyledRadioButton>
                 ))}
             </StyledRadioGroup>
-            <Pagination
-                key={page}
-                currentPage={page}
-                totalPages={Math.ceil(totalPhrases / 48)}
-                onPageChange={setPage}
-            />
+
             <StyledExpressionList>
                 {loading ? (
                     <p>Loading...</p>
@@ -76,6 +71,12 @@ const ExpresionsPage = () => {
                     ))
                 )}
             </StyledExpressionList>
+            <Pagination
+                key={page}
+                currentPage={page}
+                totalPages={Math.ceil(totalPhrases / 48)}
+                onPageChange={setPage}
+            />
         </Container>
     );
 };
