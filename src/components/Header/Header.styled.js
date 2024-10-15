@@ -3,7 +3,6 @@ import breakpoints from "../../styles/breakpoints";
 
 export const StyledHeaderWrapper = styled.div`
     width: 100%;
-    position: relative;
     padding: 4px 0px;
     display: flex;
     flex-direction: row;

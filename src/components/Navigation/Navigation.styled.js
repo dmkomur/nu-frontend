@@ -38,19 +38,21 @@ export const MobileMenuButton = styled.button`
     display: none;
     background: none;
     border: none;
-    font-size: 40px;
     cursor: pointer;
-    position: fixed;
-    top: 10px;
-    right: 2px;
+    position: absolute;
+    padding: 0px;
+    width: 40px;
+    height: 40px;
+    top: 6px;
+    right: 10px;
     z-index: 1001;
     @media (max-width: 768px) {
         display: block;
     }
 
     svg {
-        stroke: ${({ open }) =>
-            open ? materialPalette.secondary : materialPalette.primary};
+        width: 36px;
+        height: 36px;
         fill: ${({ open }) =>
             open ? materialPalette.secondary : materialPalette.primary};
     }

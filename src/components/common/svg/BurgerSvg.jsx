@@ -3,15 +3,13 @@ function IconHamburgerMenu(props) {
         <svg
             fill="none"
             viewBox="0 0 24 24"
-            height="1em"
-            width="1em"
+            height="36px"
+            width="36px"
             {...props}
         >
             <path
-                fill="currentColor"
-                fillRule="evenodd"
-                d="M1.5 3a.5.5 0 000 1h12a.5.5 0 000-1h-12zM1 7.5a.5.5 0 01.5-.5h12a.5.5 0 010 1h-12a.5.5 0 01-.5-.5zm0 4a.5.5 0 01.5-.5h12a.5.5 0 010 1h-12a.5.5 0 01-.5-.5z"
-                clipRule="evenodd"
+                fill=""
+                d="M2 6a1 1 0 011-1h18a1 1 0 110 2H3a1 1 0 01-1-1zM2 12.032a1 1 0 011-1h18a1 1 0 110 2H3a1 1 0 01-1-1zM3 17.064a1 1 0 100 2h18a1 1 0 000-2H3z"
             />
         </svg>
     );
