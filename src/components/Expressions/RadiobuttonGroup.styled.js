@@ -6,6 +6,7 @@ const StyledRadioGroup = styled.div`
     gap: 16px;
     padding: 24px;
     justify-content: center;
+    flex-wrap: wrap;
 `;
 
 export default StyledRadioGroup;
