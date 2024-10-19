@@ -1,19 +1,22 @@
 import { Outlet } from "react-router-dom";
 import Container from "../components/common/container/Container";
 import { NavLink } from "react-router-dom";
-
+import StyledSectionHeader from "../components/common/sectionHeader/SectionHeader.styled";
 const GrammarPage = () => {
+    const rules = ["sentences", "pronumen"];
     return (
         <Container>
-            <h2>I am Grammar page</h2>
+            <StyledSectionHeader>Граматика норвезької мови</StyledSectionHeader>
             <nav>
                 <ul>
-                    <li>
-                        <NavLink to="sentences">Sentences Rule</NavLink>
-                    </li>
-                    <li>
-                        <NavLink to="pronumen">Pronumen Rule</NavLink>
-                    </li>
+                    {rules.map((rule) => (
+                        <li key={rule}>
+                            <NavLink to={rule}>
+                                {rule.charAt(0).toUpperCase() + rule.slice(1)}
+                                Rule
+                            </NavLink>
+                        </li>
+                    ))}
                 </ul>
             </nav>
             <Outlet />
