@@ -8,7 +8,14 @@ import StyledRadioButton from "../components/Expressions/Radiobutton.styled";
 import Pagination from "../components/Expressions/ExpressionsPagination";
 
 const ExpresionsPage = () => {
-    const options = ["Все", "Побут", "Школа", "Лікарня", "Транспорт"];
+    const options = [
+        "Все",
+        "Побут",
+        "Школа",
+        "Лікарня",
+        "Транспорт",
+        "Магазин",
+    ];
 
     const [expressions, setExpressions] = useState([]);
     const [loading, setLoading] = useState(true);
