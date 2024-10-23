@@ -8,8 +8,6 @@ import PropTypes from "prop-types";
 const Pagination = ({ currentPage, totalPages, onPageChange }) => {
     const handlePrev = () => onPageChange(currentPage - 1);
     const handleNext = () => onPageChange(currentPage + 1);
-    console.log("Current Page:", currentPage);
-    console.log("Total Pages:", totalPages);
 
     const createPageArray = () => {
         const pages = [];

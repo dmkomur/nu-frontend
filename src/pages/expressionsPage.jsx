@@ -15,6 +15,7 @@ const ExpresionsPage = () => {
         "Лікарня",
         "Транспорт",
         "Магазин",
+        "Робота",
     ];
 
     const [expressions, setExpressions] = useState([]);
@@ -28,6 +29,13 @@ const ExpresionsPage = () => {
         setPage(1);
     };
 
+    const scrollToRadio = () => {
+        const logoElement = document.getElementById("radio");
+        if (logoElement) {
+            logoElement.scrollIntoView({ behavior: "smooth" });
+        }
+    };
+
     useEffect(() => {
         axios
             .get(`http://localhost:3000/api/phrases`, {
@@ -35,10 +43,10 @@ const ExpresionsPage = () => {
             })
 
             .then((response) => {
-                console.log(response.data);
                 setExpressions(response.data.phrases[0]);
                 setTotalPhrases(response.data.total);
                 setLoading(false);
+                scrollToRadio();
             })
             .catch((error) => {
                 console.error("Error fetching expressions:", error);
@@ -48,7 +56,7 @@ const ExpresionsPage = () => {
 
     return (
         <Container>
-            <StyledRadioGroup>
+            <StyledRadioGroup id="radio">
                 {options.map((option) => (
                     <StyledRadioButton
                         key={option}
