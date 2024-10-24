@@ -16,6 +16,8 @@ const ExpresionsPage = () => {
         "Транспорт",
         "Магазин",
         "Робота",
+        "Спорт",
+        "Вечірка",
     ];
 
     const [expressions, setExpressions] = useState([]);
