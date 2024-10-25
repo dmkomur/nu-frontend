@@ -1,16 +1,15 @@
 import { useParams } from "react-router-dom";
-import RulePronumen from "./RulePronumen/RulePronumen";
+import RulePronoun from "./RulePronoun/RulePronoun";
 import RuleSentences from "./RuleSentences/RuleSentences";
 
 function Rule() {
-    const { rule } = useParams(); // Получаем параметр rule из URL
-
+    const { rule } = useParams();
     const renderRule = () => {
         switch (rule) {
             case "sentences":
                 return <RuleSentences />;
-            case "pronumen":
-                return <RulePronumen />;
+            case "pronoun":
+                return <RulePronoun />;
             default:
                 return <p>Please select a valid grammar rule.</p>;
         }

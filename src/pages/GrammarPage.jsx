@@ -3,17 +3,25 @@ import Container from "../components/common/container/Container";
 import { NavLink } from "react-router-dom";
 import StyledSectionHeader from "../components/common/sectionHeader/SectionHeader.styled";
 const GrammarPage = () => {
-    const rules = ["sentences", "pronumen"];
+    const rules = [
+        {
+            ruleName: "sentences",
+            ruleLable: "Будова речення",
+        },
+        {
+            ruleName: "pronoun",
+            ruleLable: "Займенник (Pronomen)",
+        },
+    ];
     return (
         <Container>
             <StyledSectionHeader>Граматика норвезької мови</StyledSectionHeader>
             <nav>
                 <ul>
                     {rules.map((rule) => (
-                        <li key={rule}>
-                            <NavLink to={rule}>
-                                {rule.charAt(0).toUpperCase() + rule.slice(1)}
-                                Rule
+                        <li key={rule.ruleName}>
+                            <NavLink to={rule.ruleName}>
+                                {rule.ruleLable}
                             </NavLink>
                         </li>
                     ))}
