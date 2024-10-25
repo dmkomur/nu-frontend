@@ -4,10 +4,11 @@ import {
     StyledAlert,
     StyledAlertLabel,
 } from "../../common/rules/RuleAlert.styled";
+import { StyledRuleWrapper } from "../../common/rules/RulePWrapper.styled";
 
 const RuleSentences = () => {
     return (
-        <>
+        <StyledRuleWrapper>
             <StyledRuleHeader>Будова речення</StyledRuleHeader>
             <StyledRuleDescription>
                 В норвезькій мові речення будуються за принципом{" "}
@@ -50,7 +51,7 @@ const RuleSentences = () => {
                 конкретними словами. З ними ви зможете познайомитись у
                 подальшому вивченні мови.
             </StyledAlert>
-        </>
+        </StyledRuleWrapper>
     );
 };
 export default RuleSentences;

@@ -4,11 +4,11 @@ import {
     StyledAlertLabel,
 } from "../../common/rules/RuleAlert.styled";
 import StyledRuleDescription from "../../common/rules/RuleDescription";
-import { StyledRulePronoumWrapper } from "./RulePronoun.styled";
+import { StyledRuleWrapper } from "../../common/rules/RulePWrapper.styled";
 
 const RulePronoun = () => {
     return (
-        <StyledRulePronoumWrapper>
+        <StyledRuleWrapper>
             <StyledRuleHeader>Займенник</StyledRuleHeader>
             <StyledRuleDescription>
                 Займе́нник — це самостійна частина мови, що вказує на особу чи
@@ -93,7 +93,7 @@ const RulePronoun = () => {
                 <br />
                 <span>Dem</span> - Їх/Їм.
             </StyledRuleDescription>
-        </StyledRulePronoumWrapper>
+        </StyledRuleWrapper>
     );
 };
 
