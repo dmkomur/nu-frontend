@@ -19,6 +19,10 @@ const GrammarPage = () => {
             ruleName: "pronoun",
             ruleLable: "Займенник",
         },
+        {
+            ruleName: "nouns",
+            ruleLable: "Іменник",
+        },
     ];
 
     const location = useLocation();

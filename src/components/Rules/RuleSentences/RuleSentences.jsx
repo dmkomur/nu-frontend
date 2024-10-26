@@ -9,7 +9,7 @@ import { StyledRuleWrapper } from "../../common/rules/RulePWrapper.styled";
 const RuleSentences = () => {
     return (
         <StyledRuleWrapper>
-            <StyledRuleHeader>Будова речення</StyledRuleHeader>
+            <StyledRuleHeader>Будова речення (Setninger)</StyledRuleHeader>
             <StyledRuleDescription>
                 В норвезькій мові речення будуються за принципом{" "}
                 <span>SVO</span>. <span>"S"</span> – суб'єкт, <span>"V"</span> –

@@ -9,7 +9,7 @@ import { StyledRuleWrapper } from "../../common/rules/RulePWrapper.styled";
 const RulePronoun = () => {
     return (
         <StyledRuleWrapper>
-            <StyledRuleHeader>Займенник</StyledRuleHeader>
+            <StyledRuleHeader>Займенник (Pronomen)</StyledRuleHeader>
             <StyledRuleDescription>
                 Займе́нник — це самостійна частина мови, що вказує на особу чи
                 предмет, але не називає їх. В норвезькій мові займенники бувають
