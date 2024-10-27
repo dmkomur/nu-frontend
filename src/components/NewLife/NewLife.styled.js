@@ -20,7 +20,7 @@ export const StyledNewLifeConnector = styled.div`
         clip-path: polygon(
             0 100%,
             10% 75%,
-            /* Широкие и низкие горы для мобильного отображения */ 20% 85%,
+            20% 85%,
             30% 70%,
             40% 80%,
             50% 60%,
@@ -33,7 +33,7 @@ export const StyledNewLifeConnector = styled.div`
     }
 
     @media (min-width: ${breakpoints.tablet}) {
-        height: 320px; /* Высота для планшетов */
+        height: 320px;
 
         &::after {
             clip-path: polygon(
@@ -76,7 +76,7 @@ export const StyledSectionWrapper = styled.div`
     width: 100%;
     background: ${materialPalette.primaryVariant};
 `;
-export const StyledNewLifeText = styled.p`
+export const StyledNewLifeText = styled.div`
     color: ${materialPalette.onPrimary};
     font-size: 22px;
     padding: 16px 0px;
@@ -142,5 +142,112 @@ export const StyledWindowHeader = styled.p`
     @media (min-width: ${breakpoints.tablet}) {
         left: 170px;
         top: 180px;
+    }
+`;
+
+export const StyledCloudOne = styled.div`
+    position: absolute;
+    top: 70px;
+    width: 160px;
+    height: 38px;
+    background-color: rgba(200, 200, 200, 0.8);
+    border-radius: 20px;
+    opacity: 0.8;
+    z-index: -1;
+    animation: moveClouds 3000ms ease-in-out infinite alternate;
+
+    @keyframes moveClouds {
+        from {
+            transform: translateX(0);
+        }
+        to {
+            transform: translateX(-40px);
+        }
+    }
+    @media (min-width: ${breakpoints.tablet}) {
+        top: 100px;
+        left: 70px;
+        width: 280px;
+        height: 40px;
+        border-radius: 20px;
+    }
+    @media (min-width: ${breakpoints.desktop}) {
+        top: 140px;
+        left: 70px;
+        width: 300px;
+        height: 50px;
+        border-radius: 25px;
+    }
+`;
+export const StyledCloudTwo = styled.div`
+    position: absolute;
+    top: 110px;
+    left: 120px;
+    width: 240px;
+    height: 50px;
+    background-color: rgba(200, 200, 200, 0.7);
+    border-radius: 30px;
+    opacity: 0.7;
+    z-index: -1;
+    animation: moveClouds 4000ms ease-in-out infinite alternate;
+
+    @keyframes moveClouds {
+        from {
+            transform: translateX(0);
+        }
+        to {
+            transform: translateX(100px);
+        }
+    }
+    @media (min-width: ${breakpoints.tablet}) {
+        top: 120px;
+        left: 500px;
+        width: 260px;
+        height: 60px;
+        border-radius: 30px;
+    }
+    @media (min-width: ${breakpoints.desktop}) {
+        top: 170px;
+        left: 450px;
+        width: 280px;
+        height: 64px;
+        border-radius: 32px;
+    }
+`;
+export const StyledCloudTre = styled.div`
+    position: absolute;
+    top: 110px;
+    left: 120px;
+    width: 240px;
+    height: 50px;
+    background-color: rgba(200, 200, 200, 0.8);
+    border-radius: 30px;
+    opacity: 0.7;
+    z-index: -1;
+    animation: moveClouds 5000ms ease-in-out infinite alternate;
+    display: none;
+
+    @keyframes moveClouds {
+        from {
+            transform: translateX(0);
+        }
+        to {
+            transform: translateX(-90px);
+        }
+    }
+    @media (min-width: ${breakpoints.tablet}) {
+        top: 120px;
+        left: 500px;
+        width: 260px;
+        height: 60px;
+        border-radius: 30px;
+    }
+    @media (min-width: ${breakpoints.desktop}) {
+        display: block;
+        top: 100px;
+        left: 1050px;
+        width: 200px;
+        height: 70px;
+        border-radius: 35px;
     }
 `;

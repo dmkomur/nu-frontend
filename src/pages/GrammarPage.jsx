@@ -23,6 +23,14 @@ const GrammarPage = () => {
             ruleName: "nouns",
             ruleLable: "Іменник",
         },
+        {
+            ruleName: "date",
+            ruleLable: "Дата",
+        },
+        {
+            ruleName: "verb",
+            ruleLable: "Дієслово",
+        },
     ];
 
     const location = useLocation();

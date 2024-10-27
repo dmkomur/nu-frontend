@@ -1,12 +1,6 @@
 import StyledSectionHeader from "../common/sectionHeader/SectionHeader.styled";
 import Container from "../common/container/Container";
-import {
-    StyledContantWrapper,
-    StyledWelcomeText,
-    StyledListWrapper,
-    StyledListHeader,
-    StyledListItem,
-} from "./Welcome.styled";
+import { StyledContantWrapper, StyledWelcomeText } from "./Welcome.styled";
 
 const Welcome = () => {
     return (
@@ -22,29 +16,14 @@ const Welcome = () => {
                     знайдете ресурси для вивчення мови, інформацію про культурні
                     особливості, практичні поради та підтримку від людей, які
                     вже пройшли цей шлях.
+                    <br />
+                    Ви знайдете багато корисної інформації, яка допоможе вам,
+                    зокрема про граматику норвезької мови для початківців,
+                    поради для пошуку роботи та інтеграції, культурні
+                    особливості життя в Норвегії та спільноту українців, що
+                    проживають тут. Це допоможе вам адаптуватися до нового
+                    середовища та знайти своє місце в Норвегії.
                 </StyledWelcomeText>
-                <StyledListWrapper>
-                    <StyledListHeader>Що ви знайдете тут:</StyledListHeader>
-                    <ul>
-                        <StyledListItem>
-                            <span>
-                                Граматика норвезької мови для початківців.
-                            </span>
-                        </StyledListItem>
-                        <StyledListItem>
-                            <span>Поради для пошуку роботи та інтеграції.</span>
-                        </StyledListItem>
-                        <StyledListItem>
-                            <span>Культурні особливості життя в Норвегії.</span>
-                        </StyledListItem>
-                        <StyledListItem>
-                            <span>
-                                Культурні особливості життя в Норвегії Спільнота
-                                українців, що проживають тут.
-                            </span>
-                        </StyledListItem>
-                    </ul>
-                </StyledListWrapper>
             </StyledContantWrapper>
         </Container>
     );

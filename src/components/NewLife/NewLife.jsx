@@ -3,12 +3,19 @@ import {
     StyledNewLifeConnector,
     StyledSectionWrapper,
     StyledNewLifeText,
+    StyledCloudOne,
+    StyledCloudTwo,
+    StyledCloudTre,
 } from "./NewLife.styled";
 
 const NewLive = () => {
     return (
         <>
-            <StyledNewLifeConnector></StyledNewLifeConnector>
+            <StyledNewLifeConnector>
+                <StyledCloudOne />
+                <StyledCloudTwo />
+                <StyledCloudTre />
+            </StyledNewLifeConnector>
             <StyledSectionWrapper>
                 <Container>
                     <StyledNewLifeText>
