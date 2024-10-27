@@ -23,13 +23,22 @@ const GrammarPage = () => {
             ruleName: "nouns",
             ruleLable: "Іменник",
         },
-        {
-            ruleName: "date",
-            ruleLable: "Дата",
-        },
+
         {
             ruleName: "verb",
             ruleLable: "Дієслово",
+        },
+        {
+            ruleName: "modal",
+            ruleLable: "Модальне дієслово",
+        },
+        {
+            ruleName: "imperative",
+            ruleLable: "Наказова форму дієслова",
+        },
+        {
+            ruleName: "date",
+            ruleLable: "Дата",
         },
     ];
 

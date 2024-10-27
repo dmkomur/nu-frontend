@@ -4,6 +4,8 @@ import RuleSentences from "./RuleSentences/RuleSentences";
 import RuleNouns from "./RuleNouns/RuleNouns";
 import RuleDate from "./RuleDate/RuleDate";
 import RuleVerb from "./RuleVerb/RuleVerb";
+import RuleModal from "./RuleModal/RuleModal";
+import RuleImperative from "./RuleImperative/RuleImperative";
 
 function Rule() {
     const { rule } = useParams();
@@ -19,6 +21,10 @@ function Rule() {
                 return <RuleDate />;
             case "verb":
                 return <RuleVerb />;
+            case "modal":
+                return <RuleModal />;
+            case "imperative":
+                return <RuleImperative />;
             default:
                 return <p>Please select a valid grammar rule.</p>;
         }

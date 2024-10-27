@@ -30,6 +30,15 @@ const RuleVerb = () => {
                 відкидається показник інфінітиву <span>"å"</span>.{" "}
                 <i>Наприклад: "Spiser" ("Їм").</i>
             </StyledRuleDescription>
+            <StyledRuleDescription>
+                Для <span>заперечення</span> достатньо поставити слово "
+                <span>ikke</span>" після дієслова.
+                <i>
+                    {" "}
+                    Наприклад: "Jeg liker ikke balalaikaen" ("Мені не
+                    подобається балалайка").
+                </i>
+            </StyledRuleDescription>
             <StyledAlert>
                 <StyledAlertLabel>Важливо!</StyledAlertLabel>У норвезькій мові
                 дієслова класифікуються як сильні (<span>sterke verb</span>) та
@@ -51,6 +60,7 @@ const RuleVerb = () => {
                 <span>Rødhårede Stepan leser en bok</span> - Рудий Степан читає
                 книгу.
             </StyledRuleDescription>
+
             <StyledRuleDescription>
                 Цікавіше стає коли у нас в реченні два дієслова поспіль.
                 <i> Наприклад: "Я люблю грати у футбол".</i> Що робити? Робити
