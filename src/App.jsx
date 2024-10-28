@@ -1,8 +1,8 @@
 import { Route, Routes } from "react-router-dom";
-import Layout from "./pages/layout";
+import Layout from "./pages/Layout";
 import HomePage from "./pages/HomePage";
 import GrammarPage from "./pages/GrammarPage";
-import ExpressionsPage from "./pages/ExpressionsPage.jsx";
+import ExpressionsPage from "./pages/ExpressionsPage";
 import Rule from "./components/Rules/Rule";
 
 function App() {
