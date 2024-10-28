@@ -7,7 +7,7 @@ import StyledRadioGroup from "../components/Expressions/RadiobuttonGroup.styled"
 import StyledRadioButton from "../components/Expressions/Radiobutton.styled";
 import Pagination from "../components/Expressions/ExpressionsPagination";
 
-const ExpresionsPage = () => {
+const ExpressionsPage = () => {
     const options = [
         "Все",
         "Побут",
@@ -98,4 +98,4 @@ const ExpresionsPage = () => {
     );
 };
 
-export default ExpresionsPage;
+export default ExpressionsPage;
