@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import Layout from "./pages/layout";
 import HomePage from "./pages/HomePage";
 import GrammarPage from "./pages/GrammarPage";
-import ExpressionsPage from "./pages/ExpressionsPage";
+import ExpressionsPage from "./pages/ExpressionsPage.jsx";
 import Rule from "./components/Rules/Rule";
 
 function App() {
