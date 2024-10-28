@@ -40,7 +40,7 @@ const ExpresionsPage = () => {
 
     useEffect(() => {
         axios
-            .get(`http://localhost:3000/api/phrases`, {
+            .get(`https://nu-backend-production.up.railway.app/api/phrases`, {
                 params: { theme: selectedOption, page: page },
             })
 
