@@ -8,14 +8,16 @@ export const HeroSection = styled.section`
     height: 400px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url(${natureImg});
-    background-position: center 86%;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     @media (min-width: ${breakpoints.tablet}) {
+        background-position: center 86%;
     }
 
     @media (min-width: ${breakpoints.desktop}) {
+        background-position: center 86%;
     }
 `;
 export const HeroContent = styled.div`

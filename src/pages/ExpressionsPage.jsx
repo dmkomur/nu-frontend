@@ -40,7 +40,7 @@ const ExpressionsPage = () => {
 
     useEffect(() => {
         axios
-            .get(`https://nu-backend.railway.internal/api/phrases`, {
+            .get(`http://nu-backend/api/phrases`, {
                 params: { theme: selectedOption, page: page },
             })
 
