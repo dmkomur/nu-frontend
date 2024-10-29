@@ -1,37 +1,37 @@
-# global options
+# глобальные опции
 {
-    admin off # theres no need for the admin api in railway's environment
-    persist_config off # storage isn't persistent anyway
-    auto_https off # railway handles https for us, this would cause issues if left enabled
-    # runtime logs
+    admin off # отключить API администрирования
+    persist_config off # конфигурация не сохраняется
+    auto_https off # Railway обрабатывает HTTPS для нас
+    # журналы времени выполнения
     log {
-        format json # set runtime log format to json mode 
+        format json # формат журналов в формате json
     }
-    # server options
+    # опции сервера
     servers {
-        trusted_proxies static private_ranges 100.0.0.0/8 # trust railway's proxy
+        trusted_proxies static private_ranges 100.0.0.0/8 # доверять прокси Railway
     }
 }
 
-# site block, listens on the $PORT environment variable, automatically assigned by railway
+# блок сайта, слушает на переменной окружения $PORT
 :{$PORT:3000} {
-    # access logs
+    # журналы доступа
     log {
-        format json # set access log format to json mode
+        format json # формат журналов доступа в формате json
     }
 
-    # health check for railway
+    # проверка состояния для Railway
     rewrite /health /*
 
-    # serve from the 'dist' folder (Vite builds into the 'dist' folder)
+    # служить из папки 'dist' (Vite собирает в папку 'dist')
     root * dist
 
-    # enable gzipping responses
+    # включить сжатие ответов
     encode gzip
 
-    # serve files from 'dist'
+    # служить файлы из 'dist'
     file_server
 
-    # if path doesn't exist, redirect it to 'index.html' for client side routing
+    # если путь не существует, перенаправить на 'index.html' для клиентской маршрутизации
     try_files {path} /index.html
 }
