@@ -9,7 +9,6 @@ export const StyledFooter = styled.div`
 `;
 export const StyledFooterLink = styled.a`
     padding: 8px 0px;
-    display: block;
     font-size: 18px;
     color: ${materialPalette.surfaceVariant};
     transition: all ease-out 300ms;
@@ -17,4 +16,11 @@ export const StyledFooterLink = styled.a`
         color: ${materialPalette.secondary};
         transition: all ease-out 300ms;
     }
+`;
+
+export const StyledFooterLinkList = styled.ul`
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: start;
 `;
