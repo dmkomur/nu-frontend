@@ -4,13 +4,11 @@
     "version": "1.0.0",
     "type": "module",
     "scripts": {
-        "install": "npm ci --omit=dev",
         "dev": "vite",
         "build": "vite build",
         "lint": "eslint .",
         "preview": "vite preview",
-        "start": "vite preview --host 0.0.0.0 --p 3000",
-        "install:prod": "npm ci --omit=dev"
+        "start": "vite preview"
     },
     "dependencies": {
         "axios": "^1.7.7",
