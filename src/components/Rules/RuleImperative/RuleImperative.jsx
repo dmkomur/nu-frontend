@@ -47,8 +47,8 @@ const RuleImperative = () => {
                 </i>
             </StyledRuleDescription>
             <StyledAlert>
-                <StyledAlertLabel>Важливо!</StyledAlertLabel>Так як наказовий
-                спосіб часто застосовується безпосередньо до співрозмовника то
+                <StyledAlertLabel>Важливо!</StyledAlertLabel>Так як наказова
+                форма часто застосовується безпосередньо до співрозмовника то
                 іменник можна опустити.
             </StyledAlert>
         </StyledRuleWrapper>
