@@ -58,11 +58,34 @@ const RuleLocation = () => {
                     телевізором").
                 </i>
                 <br />
+                <span>Her</span> - Тут.{" "}
+                <i>Приклад: "Det er her" ("Воно тут").</i>
+                <br />
+                <span>Der</span> - Там.{" "}
+                <i>Приклад: "Det er der" ("Воно там").</i>
+                <br />
+            </StyledRuleDescription>
+            <StyledRuleDescription>
+                Дієслова, що вказують на стан плюс мінус, такі ж як у нас.
+                <br />
+                <span>Et glass står på bordet</span> - Склянка стоїть на столі.
+                <br />
+                <span>Boken ligger på sengen</span> - Книжка лежить на ліжку.
+                <br />
+                <span>Bildet henger på veggen</span> - Картина висить на стіні.
+                <br />
+                Варто звернути увагу лише на цей приклад:
+                <br />
+                <span>Sett melken i kjøleskapet</span> - Постав (Встанови)
+                молоко в холодильник.
             </StyledRuleDescription>
             <StyledAlert>
                 <StyledAlertLabel>Важливо!</StyledAlertLabel>Іноді логіка не
-                така, як у нас, і доводиться просто запам'ятовувати. З
-                напрямками ситуація схожа.
+                така, як у нас, і доводиться просто запам'ятовувати.{" "}
+                <i>
+                    Приклад: "Han sitter <span>i</span> sofaen" ("Він сидить на
+                    дивані").
+                </i>{" "}
             </StyledAlert>
         </StyledRuleWrapper>
     );
