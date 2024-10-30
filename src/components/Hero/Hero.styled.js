@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import natureImg from "/src/assets/munch.webp";
+import natureImgS from "/src/assets/munch-s.webp";
 import breakpoints from "../../styles/breakpoints";
 import materialPalette from "../../styles/palette";
 
@@ -7,12 +8,17 @@ export const HeroSection = styled.section`
     width: 100%;
     height: 400px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url(${natureImg});
+        url(${natureImgS});
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     @media (min-width: ${breakpoints.tablet}) {
+        background-image: linear-gradient(
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)
+            ),
+            url(${natureImg});
         background-position: center 86%;
     }
 

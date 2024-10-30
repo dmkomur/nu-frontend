@@ -40,6 +40,10 @@ const GrammarPage = () => {
             ruleName: "date",
             ruleLable: "Дата",
         },
+        {
+            ruleName: "location",
+            ruleLable: "Розташування",
+        },
     ];
 
     const location = useLocation();

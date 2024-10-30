@@ -6,6 +6,7 @@ import RuleDate from "./RuleDate/RuleDate";
 import RuleVerb from "./RuleVerb/RuleVerb";
 import RuleModal from "./RuleModal/RuleModal";
 import RuleImperative from "./RuleImperative/RuleImperative";
+import RuleLocation from "./RuleLocation/RuleLocation";
 
 function Rule() {
     const { rule } = useParams();
@@ -25,6 +26,8 @@ function Rule() {
                 return <RuleModal />;
             case "imperative":
                 return <RuleImperative />;
+            case "location":
+                return <RuleLocation />;
             default:
                 return <p>Please select a valid grammar rule.</p>;
         }

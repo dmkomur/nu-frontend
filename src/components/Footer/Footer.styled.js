@@ -12,7 +12,7 @@ export const StyledFooterLink = styled.a`
     font-size: 18px;
     color: ${materialPalette.surfaceVariant};
     transition: all ease-out 300ms;
-    &:hover, &: focus {
+    &:hover {
         color: ${materialPalette.secondary};
         transition: all ease-out 300ms;
     }
@@ -23,4 +23,5 @@ export const StyledFooterLinkList = styled.ul`
     flex-direction: column;
     gap: 16px;
     align-items: start;
+    list-style-type: none;
 `;
