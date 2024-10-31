@@ -12,7 +12,6 @@ export const HeroSection = styled.section`
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     @media (min-width: ${breakpoints.tablet}) {
         background-image: linear-gradient(
                 rgba(0, 0, 0, 0.5),
@@ -23,7 +22,7 @@ export const HeroSection = styled.section`
     }
 
     @media (min-width: ${breakpoints.desktop}) {
-        background-position: center 86%;
+        background-attachment: fixed;
     }
 `;
 export const HeroContent = styled.div`
