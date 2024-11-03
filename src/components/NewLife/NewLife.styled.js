@@ -79,7 +79,7 @@ export const StyledSectionWrapper = styled.div`
 export const StyledNewLifeText = styled.div`
     color: ${materialPalette.onPrimary};
     font-size: 22px;
-    padding: 16px 0px;
+    padding: 56px 0px;
     line-height: 1.42;
 `;
 
