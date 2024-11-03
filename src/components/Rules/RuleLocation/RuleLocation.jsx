@@ -15,11 +15,14 @@ const RuleLocation = () => {
                 прийменники.
             </StyledRuleDescription>
             <StyledRuleDescription>
-                <span>I/Inne</span> - В.{" "}
+                <span>I/Inne</span> - В/В середині.{" "}
                 <i>
                     Приклад: "Eple ligger i en boks" ("Яблуко лежить у
                     коробці").
                 </i>
+                <br />
+                <span>Ute</span> - Зовні.{" "}
+                <i>Приклад: "Barna leker ute" ("Діти грають на вулиці").</i>
                 <br />
                 <span>På</span> - На.{" "}
                 <i>Приклад: "Bok på bordet" ("Книжка на столі").</i>
@@ -66,7 +69,7 @@ const RuleLocation = () => {
                 <br />
             </StyledRuleDescription>
             <StyledRuleDescription>
-                Дієслова, що вказують на стан плюс мінус, такі ж як у нас.
+                Дієслова, що вказують на стан, плюс мінус, такі ж як у нас.
                 <br />
                 <span>Et glass står på bordet</span> - Склянка стоїть на столі.
                 <br />

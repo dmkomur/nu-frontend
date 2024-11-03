@@ -44,6 +44,10 @@ const GrammarPage = () => {
             ruleName: "location",
             ruleLable: "Розташування",
         },
+        {
+            ruleName: "direction",
+            ruleLable: "Напрям",
+        },
     ];
 
     const location = useLocation();
