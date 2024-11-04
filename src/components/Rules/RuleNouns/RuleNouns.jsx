@@ -31,7 +31,7 @@ const RuleNouns = () => {
                 Як бачите в цьому випадку вона купила якесь яблуко.{" "}
                 <i>
                     Артикль <span>et</span> стоїть перед іменником і вказує на
-                    означену форму.
+                    неозначену форму.
                 </i>
             </StyledRuleDescription>
             <StyledRuleDescription>

@@ -52,6 +52,10 @@ const GrammarPage = () => {
             ruleName: "past",
             ruleLable: "Минулий час",
         },
+        {
+            ruleName: "question",
+            ruleLable: "Питання",
+        },
     ];
 
     const location = useLocation();
