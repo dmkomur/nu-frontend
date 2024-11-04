@@ -38,7 +38,7 @@ const GrammarPage = () => {
         },
         {
             ruleName: "date",
-            ruleLable: "Дата",
+            ruleLable: "Дата і час",
         },
         {
             ruleName: "location",
@@ -55,6 +55,10 @@ const GrammarPage = () => {
         {
             ruleName: "question",
             ruleLable: "Питання",
+        },
+        {
+            ruleName: "adjective",
+            ruleLable: "Прикментник",
         },
     ];
 

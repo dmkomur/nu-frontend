@@ -93,6 +93,22 @@ const RulePronoun = () => {
                 <br />
                 <span>Dem</span> - Їх/Їм.
             </StyledRuleDescription>
+            <StyledRuleDescription>
+                Важливим варіантом вказівки на певний іменник є використання
+                займенників:
+                <br />
+                <span>Den</span> - den bilen ("той автомобіль").
+                <br />
+                <span>Det</span> - det huset ("той дім").
+                <br />
+                <span>De</span> - de bilene ("ті автомобілі").
+                <br />
+                <span>Denne</span> - denne boka ("ось ця книга").
+                <br />
+                <span>Dette</span> - dette huset ("ось цей дім").
+                <br />
+                <span>Disse</span> - disse bilene ("ось ці автомобілі").
+            </StyledRuleDescription>
         </StyledRuleWrapper>
     );
 };

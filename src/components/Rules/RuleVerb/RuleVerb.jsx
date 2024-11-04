@@ -15,7 +15,7 @@ const RuleVerb = () => {
             </StyledRuleHeader>
             <StyledRuleDescription>
                 Дієслово у норвезькій мові це обов'язкова частина будь-якого
-                речення. Дієслова мають кілька форм, але тут ми розглянемо дві
+                речення. Дієслова мають кілька форм, але ми розглянемо дві
                 початкові форми.
             </StyledRuleDescription>
             <StyledRuleDescription>
@@ -74,8 +74,8 @@ const RuleVerb = () => {
                 <span>Jeg prøver å snakke norsk</span> - Я пробую говорити
                 норвезькою.
                 <br />
-                <span>Liker hun å sykle?</span> - Вона любить кататися
-                велосипедом?
+                <span>Liker hun å sykle?</span> - Вона любить кататися на
+                велосипеді?
             </StyledRuleDescription>
         </StyledRuleWrapper>
     );

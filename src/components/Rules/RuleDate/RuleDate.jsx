@@ -9,7 +9,7 @@ import { StyledRuleWrapper } from "../../common/rules/RulePWrapper.styled";
 const RuleDate = () => {
     return (
         <StyledRuleWrapper>
-            <StyledRuleHeader>Дата (Dato)</StyledRuleHeader>
+            <StyledRuleHeader>Дата і час (Dato og tid)</StyledRuleHeader>
             <StyledRuleDescription>
                 З датами в норвезькій мові все як і в нас, треба лише
                 запам'ятати назви та норвежці ставлять "." після цифри в даті
@@ -43,7 +43,7 @@ const RuleDate = () => {
                 <span>Neste uke</span> - наступного тижня.
             </StyledRuleDescription>
             <StyledRuleDescription>
-                Час доби:
+                Пора року:
                 <br />
                 <span>Vinter</span> - зима.
                 <br />
@@ -54,7 +54,7 @@ const RuleDate = () => {
                 <span>Høst</span> - осінь.
             </StyledRuleDescription>
             <StyledRuleDescription>
-                Пора року:
+                Час доби:
                 <br />
                 <span>Morgen</span> - ранок.
                 <br />

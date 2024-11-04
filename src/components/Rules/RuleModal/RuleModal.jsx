@@ -52,7 +52,7 @@ const RuleModal = () => {
                 </i>
             </StyledRuleDescription>
             <StyledRuleDescription>
-                <span>Skal</span> - план зробити щось, майбутнє.
+                <span>Skal</span> - план зробити щось, майбутній час.
                 <i>
                     {" "}
                     Наприклад: "Dere skal leie leilighet neste år" ("Ви будете

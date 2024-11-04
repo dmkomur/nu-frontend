@@ -42,7 +42,7 @@ const RuleQuestion = () => {
             <StyledAlert>
                 <StyledAlertLabel>Важливо!</StyledAlertLabel>Питання "яким"
                 змінюється в залежності від роду - <span>Hvilket</span> - Яке,{" "}
-                <span>Hvilken</span> - Який, , <span>Hvilke</span> - Які.
+                <span>Hvilken</span> - Який, <span>Hvilke</span> - Які.
             </StyledAlert>
 
             <StyledRuleDescription>
