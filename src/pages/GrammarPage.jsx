@@ -48,6 +48,10 @@ const GrammarPage = () => {
             ruleName: "direction",
             ruleLable: "Напрям",
         },
+        {
+            ruleName: "past",
+            ruleLable: "Минулий час",
+        },
     ];
 
     const location = useLocation();
