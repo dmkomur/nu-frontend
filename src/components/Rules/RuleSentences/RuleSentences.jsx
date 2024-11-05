@@ -41,6 +41,18 @@ const RuleSentences = () => {
                 </i>{" "}
                 . "Norsk" ("Норвезьку мову") - це і є об'єкт у нашому реченні.
             </StyledRuleDescription>
+            <StyledRuleDescription>
+                Якщо нам потрібно поставити показник часу або якусь іншу
+                інформацію на перше місце в реченні, то <span>дієслово</span>{" "}
+                все одно залишається на <span>першому місці</span>, а суб'єк
+                буде розташований за ним.
+                <br />
+                <i>
+                    Наприклад: "Nå <span>ser</span> jeg på TV" ("Зараз дивлюсь{" "}
+                    <span>я</span>тв")
+                </i>
+                .
+            </StyledRuleDescription>
             <StyledAlert>
                 <StyledAlertLabel>Важливо!</StyledAlertLabel>У норвезькій мові
                 дієслово
@@ -54,7 +66,8 @@ const RuleSentences = () => {
                 подальшому вивченні мови.
             </StyledAlert>
             <StyledRuleDescription>
-                <span>Og </span>(І/Та), <span>Men </span>(Але) – ці два слова
+                <span>Og </span>(І/Та), <span>Men </span>(Але) – ці два{" "}
+                <span>сполучника</span>
                 використовуються для поєднання двох речень в одне, при цьому
                 вони не належать ні до першої частини речення ні до другої.
                 Тобто займають "нульову" позицію, дієслово як завжди залишається

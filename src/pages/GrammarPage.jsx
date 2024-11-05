@@ -60,6 +60,10 @@ const GrammarPage = () => {
             ruleName: "adjective",
             ruleLable: "Прикментник",
         },
+        {
+            ruleName: "leddsetning",
+            ruleLable: "Підрядне речення",
+        },
     ];
 
     const location = useLocation();

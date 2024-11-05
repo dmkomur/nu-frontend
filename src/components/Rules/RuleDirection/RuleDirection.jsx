@@ -7,6 +7,11 @@ const RuleDirection = () => {
         <StyledRuleWrapper>
             <StyledRuleHeader>Напрям (Retning)</StyledRuleHeader>
             <StyledRuleDescription>
+                <span>Hit, dit</span>.
+                <br />
+                Сюди, туди.
+            </StyledRuleDescription>
+            <StyledRuleDescription>
                 <span>Venstre, høyre, rett, tilbake, fremover</span>.
                 <br />
                 Ліворуч, праворуч, прямо, назад, вперед.
