@@ -9,9 +9,7 @@ import { StyledRuleWrapper } from "../../common/rules/RulePWrapper.styled";
 const RuleLeddsetning = () => {
     return (
         <StyledRuleWrapper>
-            <StyledRuleHeader>
-                Підрядне речення (Laddsetninger)
-            </StyledRuleHeader>
+            <StyledRuleHeader>Підрядне речення (Laddsetning)</StyledRuleHeader>
             <StyledRuleDescription>
                 У граматиці це означає <span>залежне речення</span>, яке не може
                 існувати окремо і додає додаткову інформацію до головного

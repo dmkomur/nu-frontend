@@ -11,7 +11,7 @@ import RuleDirection from "./RuleDirection/RuleDirection";
 import RulePast from "./RulePast/RulePast";
 import RuleQuestion from "./RuleQuestion/RuleQuestion";
 import RuleAdjective from "./RuleAdjective/RuleAdjective";
-import RuleLeddsetning from "./RuleLeddsetning/RuleLeddSetning";
+import RuleLeddsetning from "./RuleLeddsetning/asdasdasdasd";
 
 function Rule() {
     const { rule } = useParams();
