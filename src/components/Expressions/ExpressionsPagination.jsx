@@ -52,7 +52,7 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
                 onClick={handlePrev}
                 disabled={currentPage === 1}
             >
-                Назад
+                {"<"}
             </StyledPaginationButton>
             {pages.map((page, index) => {
                 if (page === "...") {
@@ -74,7 +74,7 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
                 onClick={handleNext}
                 disabled={currentPage === totalPages}
             >
-                Вперед
+                {">"}
             </StyledPaginationButton>
         </StyledPaginationWrapper>
     );
