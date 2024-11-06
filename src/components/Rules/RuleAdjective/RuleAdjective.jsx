@@ -12,8 +12,8 @@ const RuleAdjective = () => {
             <StyledRuleHeader>Прикметник (Adjektiv)</StyledRuleHeader>
             <StyledRuleDescription>
                 Прикметник описує іменник і змінюється залежно від роду
-                іменника, а також від того изначена чи невизначена форма іменник
-                використовується в реченні.
+                іменника, а також від того визначена чи невизначена форма
+                іменника використовується в реченні.
             </StyledRuleDescription>
             <StyledRuleDescription>
                 Невизначена форма <span>(Ubestemt form)</span>:
@@ -35,7 +35,7 @@ const RuleAdjective = () => {
                 роду та числа до закінчення прикметника додається <span>e</span>
                 .
                 <br />
-                <span>Den norske boka –</span> - (певна) норвезька книга.
+                <span>Den norske boka</span> - (певна) норвезька книга.
                 <br />
                 <span>De norske ordene</span> - (певні) норвезькі слова.
             </StyledRuleDescription>
@@ -44,7 +44,7 @@ const RuleAdjective = () => {
                 <StyledAlertLabel>Важливо!</StyledAlertLabel>Це лише базові
                 правила використання прикметника. На практиці є дуже багато
                 винятків та граматичних змін. Завчити все дуже складно, та й
-                немає в цьому необхідності. Краще запам'ятовувати у міру
+                немає в цьому необхідності. Краще запам'ятовувати по мірі
                 використання.
             </StyledAlert>
         </StyledRuleWrapper>

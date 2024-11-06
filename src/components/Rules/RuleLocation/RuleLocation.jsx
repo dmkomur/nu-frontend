@@ -27,8 +27,8 @@ const RuleLocation = () => {
                 <span>På</span> - На.{" "}
                 <i>Приклад: "Bok på bordet" ("Книжка на столі").</i>
                 <br />
-                <span>Ved siden av</span> - Поруч з. (дуже близько - як яйця в
-                лотку){" "}
+                <span>Ved siden av</span> - Поруч з (дуже близько - як яйця в
+                лотку).{" "}
                 <i>
                     Приклад: "Melk og agurk ved siden av toalettpapir" ("Молоко
                     та огірки поруч із туалетним папером").

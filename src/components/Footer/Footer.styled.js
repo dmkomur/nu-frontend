@@ -19,26 +19,19 @@ export const StyledFooterLink = styled.a`
     &:hover {
         color: ${materialPalette.secondary};
         transition: all ease-out 300ms;
-        &::before {
-            background-color: ${materialPalette.secondary};
-            color: white;
+        svg {
+            fill: ${materialPalette.secondary};
         }
     }
 
-    &::before {
-        content: "→";
+    svg {
         position: absolute;
         left: 0;
-        font-size: 18px;
-        color: ${materialPalette.primary}; /* Синий цвет для символа ">" */
         width: 18px;
         height: 18px;
-        background-color: ${materialPalette.onSecondary};
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        fill: ${materialPalette.onSecondary}; /* Цвет SVG стрелки */
         transition: all ease-out 300ms;
+        transform: rotate(90deg);
     }
 `;
 

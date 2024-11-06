@@ -52,7 +52,7 @@ const RulePast = () => {
             <StyledAlert>
                 Дієслів дуже багато і їх дуже важливо вчити, притому вчити
                 бажано відразу всі форми: інфінітив - теперішній час - минулий
-                час - теперішній здійснене.
+                час - теперішній здійснений час.
                 <i> å spille - spiller - spilte - har spilt</i>.
             </StyledAlert>
             <StyledRuleDescription>

@@ -5,6 +5,7 @@ import {
 } from "./Footer.styled";
 import Container from "../common/container/Container";
 import { StyledFooterLinkList } from "./Footer.styled";
+import UpArrowSvg from "../../components/common/svg/UpArrowSvg";
 
 const Footer = () => {
     return (
@@ -18,7 +19,7 @@ const Footer = () => {
                                 rel="noopener noreferrer"
                                 target="_blank"
                             >
-                                NAV
+                                <UpArrowSvg /> NAV
                             </StyledFooterLink>
                         </li>
                         <li>
@@ -27,7 +28,7 @@ const Footer = () => {
                                 rel="noopener noreferrer"
                                 target="_blank"
                             >
-                                UDI
+                                <UpArrowSvg /> UDI
                             </StyledFooterLink>
                         </li>
                     </StyledFooterLinkList>
@@ -38,7 +39,7 @@ const Footer = () => {
                                 rel="noopener noreferrer"
                                 target="_blank"
                             >
-                                Lexin
+                                <UpArrowSvg /> Lexin
                             </StyledFooterLink>
                         </li>
                         <li>
@@ -47,7 +48,7 @@ const Footer = () => {
                                 rel="noopener noreferrer"
                                 target="_blank"
                             >
-                                Ordbøkene
+                                <UpArrowSvg /> Ordbøkene
                             </StyledFooterLink>
                         </li>
                     </StyledFooterLinkList>
@@ -58,7 +59,7 @@ const Footer = () => {
                                 rel="noopener noreferrer"
                                 target="_blank"
                             >
-                                Finn
+                                <UpArrowSvg /> Finn
                             </StyledFooterLink>
                         </li>
                         <li>
@@ -67,7 +68,7 @@ const Footer = () => {
                                 rel="noopener noreferrer"
                                 target="_blank"
                             >
-                                Arbeidsplassen
+                                <UpArrowSvg /> Arbeidsplassen
                             </StyledFooterLink>
                         </li>
                     </StyledFooterLinkList>
