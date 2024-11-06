@@ -5,6 +5,7 @@ import {
     StyledAlertLabel,
 } from "../../common/rules/RuleAlert.styled";
 import { StyledRuleWrapper } from "../../common/rules/RulePWrapper.styled";
+import StyledRuleExample from "../../common/rules/RuleExample.styled";
 
 const RuleLocation = () => {
     return (
@@ -16,56 +17,70 @@ const RuleLocation = () => {
             </StyledRuleDescription>
             <StyledRuleDescription>
                 <span>I/Inne</span> - В/В середині.{" "}
-                <i>
+                <StyledRuleExample>
                     Приклад: "Eple ligger i en boks" ("Яблуко лежить у
                     коробці").
-                </i>
+                </StyledRuleExample>
                 <br />
                 <span>Ute</span> - Зовні.{" "}
-                <i>Приклад: "Barna leker ute" ("Діти грають на вулиці").</i>
+                <StyledRuleExample>
+                    Приклад: "Barna leker ute" ("Діти грають на вулиці").
+                </StyledRuleExample>
                 <br />
                 <span>På</span> - На.{" "}
-                <i>Приклад: "Bok på bordet" ("Книжка на столі").</i>
+                <StyledRuleExample>
+                    Приклад: "Bok på bordet" ("Книжка на столі").
+                </StyledRuleExample>
                 <br />
                 <span>Ved siden av</span> - Поруч з (дуже близько - як яйця в
                 лотку).{" "}
-                <i>
+                <StyledRuleExample>
                     Приклад: "Melk og agurk ved siden av toalettpapir" ("Молоко
                     та огірки поруч із туалетним папером").
-                </i>
+                </StyledRuleExample>
                 <br />
                 <span>Under</span> - Під.{" "}
-                <i>Приклад: "Sokk under sengen" ("Шкарпетка під ліжком").</i>
+                <StyledRuleExample>
+                    Приклад: "Sokk under sengen" ("Шкарпетка під ліжком").
+                </StyledRuleExample>
                 <br />
                 <span>Over</span> - Над.{" "}
-                <i>Приклад: "Hekker over vinduet" ("Гніздо над вікном").</i>
+                <StyledRuleExample>
+                    Приклад: "Hekker over vinduet" ("Гніздо над вікном").
+                </StyledRuleExample>
                 <br />
                 <span>Rund</span> - Навколо.{" "}
-                <i>
+                <StyledRuleExample>
                     Приклад: "Kvinner går rundt ham" ("Навколо нього ходять
                     жінки").
-                </i>
+                </StyledRuleExample>
                 <br />
                 <span>Næar</span> - Біля/Неподалеку.{" "}
-                <i>
+                <StyledRuleExample>
                     Приклад: "Skolen ligger nær huset mitt" ("Школа біля мого
                     дому").
-                </i>
+                </StyledRuleExample>
                 <br />
                 <span>Mellom</span> - Між.{" "}
-                <i>Приклад: "Banan mellom kiwi" ("Банан між ківі").</i>
+                <StyledRuleExample>
+                    Приклад: "Banan mellom kiwi" ("Банан між ківі").
+                </StyledRuleExample>
                 <br />
                 <span>Foran</span> - Перед.{" "}
-                <i>
+                <StyledRuleExample>
                     Приклад: "Katten sitter foran TV" ("Кіт сидить перед
                     телевізором").
-                </i>
+                </StyledRuleExample>
                 <br />
                 <span>Her</span> - Тут.{" "}
-                <i>Приклад: "Det er her" ("Воно тут").</i>
+                <StyledRuleExample>
+                    Приклад: "Det er her" ("Воно тут").
+                </StyledRuleExample>
                 <br />
                 <span>Der</span> - Там.{" "}
-                <i>Приклад: "Det er der" ("Воно там").</i>
+                <StyledRuleExample>
+                    Приклад: "Det er der" ("Воно там").
+                </StyledRuleExample>
                 <br />
             </StyledRuleDescription>
             <StyledRuleDescription>
@@ -85,10 +100,10 @@ const RuleLocation = () => {
             <StyledAlert>
                 <StyledAlertLabel>Важливо!</StyledAlertLabel>Іноді логіка не
                 така, як у нас, і доводиться просто запам'ятовувати.{" "}
-                <i>
+                <StyledRuleExample>
                     Приклад: "Han sitter <span>i</span> sofaen" ("Він сидить на
                     дивані").
-                </i>{" "}
+                </StyledRuleExample>{" "}
             </StyledAlert>
         </StyledRuleWrapper>
     );

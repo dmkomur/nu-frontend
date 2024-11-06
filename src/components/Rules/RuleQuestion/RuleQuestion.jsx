@@ -5,6 +5,7 @@ import {
 } from "../../common/rules/RuleAlert.styled";
 import StyledRuleDescription from "../../common/rules/RuleDescription";
 import { StyledRuleWrapper } from "../../common/rules/RulePWrapper.styled";
+import StyledRuleExample from "../../common/rules/RuleExample.styled";
 
 const RuleQuestion = () => {
     return (
@@ -15,27 +16,36 @@ const RuleQuestion = () => {
                 слів, дієслово залишається як завжди на другому місці.
                 <br />
                 <span>Hva</span> - Що?{" "}
-                <i>"Hva gjorde du i går?" ("Що робив учора?")</i>
+                <StyledRuleExample>
+                    "Hva gjorde du i går?" ("Що робив учора?")
+                </StyledRuleExample>
                 <br />
                 <span>Hvem</span> - Хто?{" "}
-                <i>"Hvem er vennen din?" ("Хто твій друг?")</i>
+                <StyledRuleExample>
+                    "Hvem er vennen din?" ("Хто твій друг?")
+                </StyledRuleExample>
                 <br />
                 <span>Hvordan</span> - Як?{" "}
-                <i>
+                <StyledRuleExample>
                     "Hvordan sier du dette på norsk?" ("Як сказати це
                     норвезькою?")
-                </i>
+                </StyledRuleExample>
                 <br />
                 <span>Hvorfor</span> - Чому?{" "}
-                <i>
+                <StyledRuleExample>
                     "Hvorfor kom han ikke til skolen?" ("Чому він не прийшов до
                     школи?")
-                </i>
+                </StyledRuleExample>
                 <br />
-                <span>Hvor</span> - Де? <i>"Hvor bor du?" ("Де ти живеш?")</i>
+                <span>Hvor</span> - Де?{" "}
+                <StyledRuleExample>
+                    "Hvor bor du?" ("Де ти живеш?")
+                </StyledRuleExample>
                 <br />
                 <span>Hvilke</span> - Якими/Які?{" "}
-                <i>"Hvilke språk snakker du?" ("Якими мовами говориш ти?")</i>
+                <StyledRuleExample>
+                    "Hvilke språk snakker du?" ("Якими мовами говориш ти?")
+                </StyledRuleExample>
                 <br />
             </StyledRuleDescription>
 

@@ -5,6 +5,7 @@ import {
     StyledAlertLabel,
 } from "../../common/rules/RuleAlert.styled";
 import { StyledRuleWrapper } from "../../common/rules/RulePWrapper.styled";
+import StyledRuleExample from "../../common/rules/RuleExample.styled";
 
 const RuleVerb = () => {
     return (
@@ -33,20 +34,27 @@ const RuleVerb = () => {
             <StyledRuleDescription>
                 Для <span>заперечення</span> достатньо поставити слово "
                 <span>ikke</span>" після дієслова.
-                <i>
+                <StyledRuleExample>
                     {" "}
                     Наприклад: "Jeg liker ikke balalaikaen" ("Мені не
                     подобається балалайка").
-                </i>
+                </StyledRuleExample>
             </StyledRuleDescription>
             <StyledAlert>
                 <StyledAlertLabel>Важливо!</StyledAlertLabel>У норвезькій мові
                 дієслова класифікуються як сильні (<span>sterke verb</span>) та
                 слабкі (<span>svake verb</span>). <br />
                 Слабкі дієслова змінюються за визначеними принципами.{" "}
-                <i> Наприклад: "å spise - spiser - spiste"</i>.<br /> Сильні
-                дієслова змінюються в індивідуальному порядку.{" "}
-                <i> Наприклад: "å være - er - var"</i>.
+                <StyledRuleExample>
+                    {" "}
+                    Наприклад: "å spise - spiser - spiste"
+                </StyledRuleExample>
+                .<br /> Сильні дієслова змінюються в індивідуальному порядку.{" "}
+                <StyledRuleExample>
+                    {" "}
+                    Наприклад: "å være - er - var"
+                </StyledRuleExample>
+                .
             </StyledAlert>
 
             <StyledRuleDescription>
@@ -63,10 +71,13 @@ const RuleVerb = () => {
 
             <StyledRuleDescription>
                 Цікавіше стає коли у нас в реченні два дієслова поспіль.
-                <i> Наприклад: "Я люблю грати у футбол".</i> Що робити? Робити
-                треба так само як і в нашій мові - перше дієслово ставимо в
-                теперішній час ("люблю" - "liker") а друге дієслово ставимо в
-                інфінітив ("грати" - "å spille").
+                <StyledRuleExample>
+                    {" "}
+                    Наприклад: "Я люблю грати у футбол".
+                </StyledRuleExample>{" "}
+                Що робити? Робити треба так само як і в нашій мові - перше
+                дієслово ставимо в теперішній час ("люблю" - "liker") а друге
+                дієслово ставимо в інфінітив ("грати" - "å spille").
                 <br />
                 <span>Jeg liker å spille fotball</span> - Я люблю грати у
                 футбол.

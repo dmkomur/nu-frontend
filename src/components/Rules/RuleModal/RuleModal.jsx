@@ -5,7 +5,7 @@ import {
     StyledAlertLabel,
 } from "../../common/rules/RuleAlert.styled";
 import { StyledRuleWrapper } from "../../common/rules/RulePWrapper.styled";
-
+import StyledRuleExample from "../../common/rules/RuleExample.styled";
 const RuleModal = () => {
     return (
         <StyledRuleWrapper>
@@ -16,63 +16,68 @@ const RuleModal = () => {
                 дієсловом і зовсім небагато змінює граматику - як і завжди друге
                 дієслово використовується в інфінітиві, але опускається частка
                 "å".{" "}
-                <i>
+                <StyledRuleExample>
                     Наприклад: "Du må lære norsk" ("Ти повинен вивчати
                     норвезьку").
-                </i>
+                </StyledRuleExample>
             </StyledRuleDescription>
             <StyledRuleDescription>
                 <span>Kan</span> - бути здатним, вміти.
-                <i> Наприклад: "Han kan synge" ("Він може співати").</i>
+                <StyledRuleExample>
+                    {" "}
+                    Наприклад: "Han kan synge" ("Він може співати").
+                </StyledRuleExample>
             </StyledRuleDescription>
             <StyledRuleDescription>
                 <span>Må</span> - повинен, зобов'язаний.
-                <i>
+                <StyledRuleExample>
                     {" "}
                     Наприклад: "Må du gå på jobb i morgen?" ("Ти маєш іти на
                     роботу завтра?").
-                </i>
+                </StyledRuleExample>
             </StyledRuleDescription>
             <StyledRuleDescription>
                 <span>Vil</span> - хотіти, виявити бажання.
-                <i>
+                <StyledRuleExample>
                     {" "}
                     Наприклад: "Jeg vil kjøpe is" ("Я хочу купити морозиво").
-                </i>
+                </StyledRuleExample>
             </StyledRuleDescription>
             <StyledRuleDescription>
                 <span>Bør</span> - наполеглива рекомендація, краще б зробити.
-                <i>
+                <StyledRuleExample>
                     {" "}
                     Наприклад: "Du bør slutte å røyke" ("Тобі слід кинути
                     палити"). Зверніть увагу на зв'язку з{" "}
                     <span>трьох дієслів</span> у цьому прикладі. Після
                     звичайного дієслова ставиться дієслів в інфініті та частка
                     <span> "å"</span> на місці.
-                </i>
+                </StyledRuleExample>
             </StyledRuleDescription>
             <StyledRuleDescription>
                 <span>Skal</span> - план зробити щось, буду, майбутній час.
-                <i>
+                <StyledRuleExample>
                     {" "}
                     Наприклад: "Dere skal leie leilighet neste år" ("Ви будете
                     орендувати квартиру в наступному році").
-                </i>
+                </StyledRuleExample>
             </StyledRuleDescription>
             <StyledRuleDescription>
                 Для <span>заперечення</span> достатньо поставити слово "
                 <span>ikke</span>" після модального дієслова.
-                <i>
+                <StyledRuleExample>
                     {" "}
                     Наприклад: "Grisen kan ikke svømme" ("Свиня не вміє
                     плавати").
-                </i>
+                </StyledRuleExample>
             </StyledRuleDescription>
             <StyledAlert>
                 <StyledAlertLabel>Важливо!</StyledAlertLabel>Якщо після
                 модального дієслова стоїть дієслово пов'язане з рухом (йти,
                 їхати), його можна опустити.{" "}
-                <i>Наприклад: "Jeg skal hjem" ("Я їхатиму додому").</i>
+                <StyledRuleExample>
+                    Наприклад: "Jeg skal hjem" ("Я їхатиму додому").
+                </StyledRuleExample>
             </StyledAlert>
         </StyledRuleWrapper>
     );

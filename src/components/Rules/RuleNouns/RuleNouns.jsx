@@ -5,6 +5,7 @@ import {
 } from "../../common/rules/RuleAlert.styled";
 import StyledRuleDescription from "../../common/rules/RuleDescription";
 import { StyledRuleWrapper } from "../../common/rules/RulePWrapper.styled";
+import StyledRuleExample from "../../common/rules/RuleExample.styled";
 
 const RuleNouns = () => {
     return (
@@ -25,34 +26,35 @@ const RuleNouns = () => {
             <StyledRuleDescription>
                 В неозначеній формі ми вперше щось розповідаємо про іменник або
                 це не є важливим.{" "}
-                <i>
+                <StyledRuleExample>
                     Наприклад: "Hun kjøpte <span>et eple</span>".
-                </i>{" "}
+                </StyledRuleExample>{" "}
                 Як бачите в цьому випадку вона купила якесь яблуко.{" "}
-                <i>
+                <StyledRuleExample>
                     Артикль <span>et</span> стоїть перед іменником і вказує на
                     неозначену форму.
-                </i>
+                </StyledRuleExample>
             </StyledRuleDescription>
             <StyledRuleDescription>
                 В означенній формі нам або вже щось відомо про іменник або це
                 зрозуміло з контексту.{" "}
-                <i>
+                <StyledRuleExample>
                     Наприклад: "Hun skar <span>eplet</span> i tynne skiver"
-                </i>
+                </StyledRuleExample>
                 . Тут вже вона нарізала яблуко про яке ми вже щось знаємо - вона
                 його купила в попередньому прикладі.{" "}
-                <i>
+                <StyledRuleExample>
                     Артикль забирається перед іменником та додається до його
                     закінчення: "apl<span>et</span>", таким чином ми вказуємо на
                     означну форму іменника.
-                </i>
+                </StyledRuleExample>
             </StyledRuleDescription>
             <StyledAlert>
                 <StyledAlertLabel>Важливо!</StyledAlertLabel>Якщо іменник
                 закінчується на голосну то вона просто відкидається а не
-                дублюється. <i>Eple - Epler а не Epleer.</i> Що в однині, що в
-                множині.
+                дублюється.{" "}
+                <StyledRuleExample>Eple - Epler а не Epleer.</StyledRuleExample>{" "}
+                Що в однині, що в множині.
             </StyledAlert>
             <StyledRuleDescription>
                 <span>Артикль</span> вказує не лише на означену чи неозначену
@@ -64,24 +66,34 @@ const RuleNouns = () => {
                 .
                 <br />
                 <span>Ei</span> - жіночій рід.{" "}
-                <i>Приклад: "ei lampe" ("лампа")</i>.
+                <StyledRuleExample>
+                    Приклад: "ei lampe" ("лампа")
+                </StyledRuleExample>
+                .
                 <br />
                 <span>Et</span> - середній рід.{" "}
-                <i>Приклад: "et eple" ("яблуко")</i>.
+                <StyledRuleExample>
+                    Приклад: "et eple" ("яблуко")
+                </StyledRuleExample>
+                .
                 <br />
                 <span>Однина означена форма:</span>
                 <br />
                 Hund<span>en</span> - чоловій рід.{" "}
-                <i>Артикль пересувається до закінчення іменника.</i>
+                <StyledRuleExample>
+                    Артикль пересувається до закінчення іменника.
+                </StyledRuleExample>
                 <br />
                 Lamp<span>a</span> - жіночій рід.{" "}
-                <i>
+                <StyledRuleExample>
                     Артикль прибирається але додається лише закінчення{" "}
                     <span>a</span>.
-                </i>
+                </StyledRuleExample>
                 <br />
                 Epl<span>et</span> - середній рід.{" "}
-                <i>Артикль пересувається до закінчення іменнику.</i>
+                <StyledRuleExample>
+                    Артикль пересувається до закінчення іменнику.
+                </StyledRuleExample>
             </StyledRuleDescription>
 
             <StyledAlert>
@@ -95,18 +107,18 @@ const RuleNouns = () => {
                 <br />
                 <span>Множина неозначена форма</span> - додаємо закінчення{" "}
                 <span>Er</span> до іменника.{" "}
-                <i>
+                <StyledRuleExample>
                     Приклади: "to hunder" ("якісь два песика"), "to lamper"
                     ("якісь дві лампи"), "to epler" ("якісь два яблука").
-                </i>
+                </StyledRuleExample>
                 <br />
                 <span>Множина означена форма</span> - додаємо закінчення{" "}
                 <span>Ene</span> до іменника.{" "}
-                <i>
+                <StyledRuleExample>
                     Приклади: "to hundene" ("конкретні два песика"), "to
                     lampene" ("конкретні дві лампи"), "to eplene" ("конкретні
                     два яблука").
-                </i>
+                </StyledRuleExample>
             </StyledRuleDescription>
             <StyledAlert>
                 <StyledAlertLabel>Важливо!</StyledAlertLabel>Важливим винятком є
@@ -114,10 +126,10 @@ const RuleNouns = () => {
                 <span>одну голосну</span>! В{" "}
                 <span>неозначеній формі множини</span> вони пишуться як в
                 однині, тобто без закінчення Er.{" "}
-                <i>
+                <StyledRuleExample>
                     Приклад: "et glass" ("одна склянка"), "to glass" ("дві
                     склянки").
-                </i>
+                </StyledRuleExample>
             </StyledAlert>
         </StyledRuleWrapper>
     );

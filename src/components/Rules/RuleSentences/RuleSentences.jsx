@@ -5,6 +5,7 @@ import {
     StyledAlertLabel,
 } from "../../common/rules/RuleAlert.styled";
 import { StyledRuleWrapper } from "../../common/rules/RulePWrapper.styled";
+import StyledRuleExample from "../../common/rules/RuleExample.styled";
 
 const RuleSentences = () => {
     return (
@@ -14,7 +15,10 @@ const RuleSentences = () => {
                 В норвезькій мові речення будуються за принципом{" "}
                 <span>SVO</span>. <span>"S"</span> – суб'єкт, <span>"V"</span> –
                 дієслово, <span>"O"</span> – об'єкт.{" "}
-                <i>Наприклад: "Jeg liker vann" ("Я люблю воду")</i>.
+                <StyledRuleExample>
+                    Наприклад: "Jeg liker vann" ("Я люблю воду")
+                </StyledRuleExample>
+                .
                 <br />
                 Суб'єкт та дієслово обов'язково повинні бути в усіх реченнях!
                 <br />
@@ -22,23 +26,36 @@ const RuleSentences = () => {
                 мові ми можемо обійтися без суб'єкта <i>("Йде дощ")</i>, але в
                 норвезькій мові так робити не можна, тому часто використовується
                 підмет <span>"Det"</span> як суб'єкт.{" "}
-                <i> Наприклад: "Det er kaldt i dag" ("Холодно сьогодні")</i>{" "}
+                <StyledRuleExample>
+                    {" "}
+                    Наприклад: "Det er kaldt i dag" ("Холодно сьогодні")
+                </StyledRuleExample>{" "}
                 Суб'єкт це як сам виконавець так і слова що описують його.
-                <i> Наприклад: "Hvit halt hest" ("Білий кульгавий кінь")</i>.
+                <StyledRuleExample>
+                    {" "}
+                    Наприклад: "Hvit halt hest" ("Білий кульгавий кінь")
+                </StyledRuleExample>
+                .
                 <br />
                 <span>"V" - дієслово</span> - дія яка відбувається.{" "}
-                <i>Наприклад: "Liker" ("Подобається")</i>. Без дієслова речення
-                не буває. Ми часто опускаємо дієслово <span>"бути"</span> в
-                нашій мові, в норвезькій мові віно обов'язкове.{" "}
-                <i>Наприклад: "Hun er smart" ("Вона є розумна")</i>.
+                <StyledRuleExample>
+                    Наприклад: "Liker" ("Подобається")
+                </StyledRuleExample>
+                . Без дієслова речення не буває. Ми часто опускаємо дієслово{" "}
+                <span>"бути"</span> в нашій мові, в норвезькій мові віно
+                обов'язкове.{" "}
+                <StyledRuleExample>
+                    Наприклад: "Hun er smart" ("Вона є розумна")
+                </StyledRuleExample>
+                .
                 <br />
                 <span>"O" - об'єкт</span> - доповнення, тобто те/той, щодо кого
                 відбувається дія.
-                <i>
+                <StyledRuleExample>
                     {" "}
                     Наприклад: "Jeg liker å lære norsk" ("Мені подобається
                     вивчати норвезьку мову")
-                </i>{" "}
+                </StyledRuleExample>{" "}
                 . "Norsk" ("Норвезьку мову") - це і є об'єкт у нашому реченні.
             </StyledRuleDescription>
             <StyledRuleDescription>
@@ -47,10 +64,10 @@ const RuleSentences = () => {
                 реченні, то <span>дієслово</span> все одно залишається на{" "}
                 <span>першому місці</span>, а суб'єк буде розташований за ним.
                 <br />
-                <i>
+                <StyledRuleExample>
                     Наприклад: "Nå <span>ser</span> jeg på TV" ("Зараз дивлюсь{" "}
                     <span>я</span> тв")
-                </i>
+                </StyledRuleExample>
                 .
             </StyledRuleDescription>
             <StyledAlert>
@@ -60,8 +77,10 @@ const RuleSentences = () => {
                 речення. Винятком є ​​питальні речення на які можна відповісти
                 ТАК або НІ, у таких випадках речення будуються за принципом{" "}
                 <span>VSO</span> -{" "}
-                <i>наприклад: "Liker du vann?" ("Чи любиш ти воду?")</i>. Так
-                само є й інші винятки, але їх дуже мало і пов'язані вони з
+                <StyledRuleExample>
+                    наприклад: "Liker du vann?" ("Чи любиш ти воду?")
+                </StyledRuleExample>
+                . Так само є й інші винятки, але їх дуже мало і пов'язані вони з
                 конкретними словами. З ними ви зможете познайомитись у
                 подальшому вивченні мови.
             </StyledAlert>
@@ -74,17 +93,17 @@ const RuleSentences = () => {
                 на другому місці, суб'єкт чи додаткові слова займуть перше
                 місце.
                 <br />
-                <i>
+                <StyledRuleExample>
                     "Jeg drikker vann" ("Я п'ю воду") + "Jeg spiser pizza" ("Я
                     їм піцу") = "Jeg drikker vann <span>og</span> jeg spiser
                     pizza".
-                </i>{" "}
+                </StyledRuleExample>{" "}
                 <br />
-                <i>
+                <StyledRuleExample>
                     "Jeg liker kaffe" ("Я люблю каву") + "Nå drikker jeg te"
                     ("Зараз я п'ю чай") = "Jeg liker kaffe <span>men</span> nå
                     drikker jeg te".
-                </i>{" "}
+                </StyledRuleExample>{" "}
             </StyledRuleDescription>
         </StyledRuleWrapper>
     );

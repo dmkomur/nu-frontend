@@ -5,6 +5,7 @@ import {
     StyledAlertLabel,
 } from "../../common/rules/RuleAlert.styled";
 import { StyledRuleWrapper } from "../../common/rules/RulePWrapper.styled";
+import StyledRuleExample from "../../common/rules/RuleExample.styled";
 
 const RuleLeddsetning = () => {
     return (
@@ -27,32 +28,32 @@ const RuleLeddsetning = () => {
                 займає "нульову" позицію, далі речення будується за загальним
                 принципом із дієсловом на другому місці.
                 <br />
-                <i>
+                <StyledRuleExample>
                     Наприклад: "Jeg sier <span>at jeg liker høsten</span>" - "Я
                     кажу, <span>що</span> я люблю осінь".
-                </i>
+                </StyledRuleExample>
                 <br />
                 Як видно у прикладі, друга (підрядна) частина речення не здатна
                 бути самостійною і звучить дивно - "
                 <span>at jeg liker høsten</span>" - "що я люблю осінь".
                 <br />
-                <i>
+                <StyledRuleExample>
                     Приклад: "Hun spør
                     <span> om det var godt i hytta</span>" - "Вона запитує,{" "}
                     <span>чи</span> добре було в хатині".
-                </i>
+                </StyledRuleExample>
                 <br />З сполучникам "Om" ситуація така сама, для зручності
                 розуміння можна його перекласти як "про те".
             </StyledRuleDescription>
             <StyledAlert>
                 <StyledAlertLabel>Важливо!</StyledAlertLabel>Часто нам потрібно
                 поміняти займенник у підрядній частині речення.{" "}
-                <i>
+                <StyledRuleExample>
                     Наприклад: "Mark sier: <span>Jeg</span> liker å fiske" -
                     "Марк каже: <span>Я</span> люблю рибалити" = "Han sier at{" "}
                     <span>han</span> liker å fiske" - "Він каже що{" "}
                     <span>він</span> любить рибалити".
-                </i>
+                </StyledRuleExample>
             </StyledAlert>
             <StyledRuleDescription>
                 Підрядні речення зі сполучниками <span>Da</span> (Тоді/Тоді як)
@@ -66,44 +67,44 @@ const RuleLeddsetning = () => {
                 частина. <br />У випадках коли підрядна частина йде другою,
                 структура основної буде класична <span>SVO</span>.
                 <br />
-                <i>
+                <StyledRuleExample>
                     Наприклад: "<span>Barna blir alltid begeistret</span> når de
                     får is" - "<span>Діти завжди в захваті</span>, коли вони
                     отримують морозиво".
-                </i>
+                </StyledRuleExample>
                 <br />
                 Коли ж підрядна частина йде першою, структура основної буде
                 <span> VSO</span>, тобто починатися з дієслова.
                 <br />
-                <i>
+                <StyledRuleExample>
                     Наприклад: "Da jeg var liten,{" "}
                     <span>bodde jeg i Ukraina</span>" - "Тоді як я був
                     маленьким, <spanm>жив я в Україні</spanm>".
-                </i>
+                </StyledRuleExample>
                 <br />
                 <span>Da</span> використовується в підрядній частині та описує
                 минуле.
                 <br />
-                <i>
+                <StyledRuleExample>
                     Наприклад: "Hun bodde i Spania <span>da</span> hun var
                     liten" - "Вона жила в Іспанії<span> тоді як</span> вона була
                     маленька".
-                </i>
+                </StyledRuleExample>
                 <br />
                 <span>Når </span> використовується для опису майбутнього та
                 регулярних дій.
                 <br />
-                <i>
+                <StyledRuleExample>
                     Наприклад: "<span>Når</span> jeg blir gammel, skal jeg
                     flytte til Tunisia" - "<span>Коли</span> я стану старим,
                     переїду я до Тунісу".
-                </i>
+                </StyledRuleExample>
                 <br />
-                <i>
+                <StyledRuleExample>
                     Приклад: "<span>Når</span> jeg går på skolen, lærer jeg
                     mange nye ord" - "<span>Коли</span> я ходжу до школи, вивчаю
                     я багато нових слів".
-                </i>
+                </StyledRuleExample>
             </StyledRuleDescription>
         </StyledRuleWrapper>
     );

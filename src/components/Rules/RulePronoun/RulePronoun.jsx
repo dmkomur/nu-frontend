@@ -5,6 +5,7 @@ import {
 } from "../../common/rules/RuleAlert.styled";
 import StyledRuleDescription from "../../common/rules/RuleDescription";
 import { StyledRuleWrapper } from "../../common/rules/RulePWrapper.styled";
+import StyledRuleExample from "../../common/rules/RuleExample.styled";
 
 const RulePronoun = () => {
     return (
@@ -19,28 +20,28 @@ const RulePronoun = () => {
             <StyledRuleDescription>
                 Суб'єктний — той що знаходиться у суб'єктній частині речення
                 <span> S</span>VO.{" "}
-                <i>
+                <StyledRuleExample>
                     Наприклад: "<span>Hun</span> liker katt" ("<span>Вона</span>{" "}
                     любить кота")
-                </i>
+                </StyledRuleExample>
                 .
             </StyledRuleDescription>
             <StyledRuleDescription>
                 Об'єктний — той що знаходиться у об'єктній частині речення SV
                 <span>O</span>.{" "}
-                <i>
+                <StyledRuleExample>
                     Наприклад: "Katt liker <span>henne</span>" ("Кіт любить{" "}
                     <span>її</span>")
-                </i>
+                </StyledRuleExample>
                 .
             </StyledRuleDescription>
 
             <StyledAlert>
                 <StyledAlertLabel>Важливо!</StyledAlertLabel>Важливо розуміти де
                 ми використовуємо займенник щоб не виходило щось типу:{" "}
-                <i>
+                <StyledRuleExample>
                     <span>"Hun liker hun"</span> ("Вона любить вона").
-                </i>
+                </StyledRuleExample>
             </StyledAlert>
 
             <StyledRuleDescription>
@@ -55,7 +56,10 @@ const RulePronoun = () => {
                 <span>Hun</span> - Вона <i>(про людину)</i>.
                 <br />
                 <span>Den</span> - Він/Вона{" "}
-                <i>(про жіночий або чоловічий рід але не людину)</i>.
+                <StyledRuleExample>
+                    (про жіночий або чоловічий рід але не людину)
+                </StyledRuleExample>
+                .
                 <br />
                 <span>Det</span> - Воно.
             </StyledRuleDescription>
@@ -80,7 +84,10 @@ const RulePronoun = () => {
                 <span>Henne</span> - Її/Їй <i>(про людину)</i>.
                 <br />
                 <span>Den</span> - Його/Йому/Її/Їй{" "}
-                <i>(про жіночий або чоловічий рід але не людину)</i>.
+                <StyledRuleExample>
+                    (про жіночий або чоловічий рід але не людину)
+                </StyledRuleExample>
+                .
                 <br />
                 <span>Det</span> - Його/Йому <i>(про середній рід)</i>.
             </StyledRuleDescription>
