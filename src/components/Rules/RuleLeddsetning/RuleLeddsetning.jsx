@@ -106,6 +106,71 @@ const RuleLeddsetning = () => {
                     я багато нових слів".
                 </StyledRuleExample>
             </StyledRuleDescription>
+            <StyledRuleDescription>
+                Підрядні речення зі сполучником <span>Som</span>. <br />
+                Загалом сполучником "Som" з'єднує два речення в одне, і в
+                підрядній частині виконує функції суб'єкта або об'єкта.
+                <br />
+                <span>Som</span> - як, який, яка, які, яким, з яким, якого...
+                "Som" - це швейцарський ніж. <br />
+                Основна частина речення будується стандартно - <span>SVO</span>,
+                з підрядною будем розбиратись на прикладах.
+                <br />
+                Припустим ми хочемо скласти з двох речень одне -{" "}
+                <StyledRuleExample>"Я маю друга"</StyledRuleExample> та{" "}
+                <StyledRuleExample>"Він живе в Осло"</StyledRuleExample>.
+                Українською ми скажем приблизно так -{" "}
+                <StyledRuleExample>
+                    "Я маю друга, який живе в Осло"
+                </StyledRuleExample>
+                . Теж саме нам потрібно реалізувати норвежською.
+                <br />
+                Основана частина -
+                <StyledRuleExample> "Jeg har en venn"</StyledRuleExample>,
+                підрядна -{" "}
+                <StyledRuleExample>
+                    "<span>som</span> bor i Oslo".
+                </StyledRuleExample>{" "}
+                У нашому прикладі "som" виконує роль <span>суб'єкта</span> і
+                дієслово cтоїть відразу за ним -{" "}
+                <StyledRuleExample>
+                    "Jeg har en venn som bor i Oslo".
+                </StyledRuleExample>
+                <br />
+                Тепер складемо інші речення в одне.{" "}
+                <StyledRuleExample>
+                    "Ми будемо дивитися фільм"
+                </StyledRuleExample>{" "}
+                та <StyledRuleExample>"Я бачив фільм раніше"</StyledRuleExample>
+                . В нас вийде -{" "}
+                <StyledRuleExample>
+                    "Ми будемо дивитися фільм <span>який</span> я бачив раніше".
+                </StyledRuleExample>{" "}
+                Норвезькую буде так -{" "}
+                <StyledRuleExample>
+                    Vi skal se en film <span>som</span> jeg har sett før
+                </StyledRuleExample>
+                . В підрядній частині "som" виконує роль <span>об'єкта</span>,
+                cуб'єктом є "jeg" (я) - той хто виконую дію в підрядній частині.
+                Таким чином після "som" ми ставимо суб'єкт і дієслово{" "}
+                <span>SV</span>, а об'єкт прибираємо так як його роль вже зіграв
+                "som".
+                <br />
+                <StyledRuleExample>
+                    Ще приклад: "Jeg har en venn <span>som</span> jeg ofte
+                    prater <span>med</span>" - "У мене є дург{" "}
+                    <span>з яким</span> я часто говорю".
+                </StyledRuleExample>{" "}
+                Зверніть увагу що ми говоримо "з яким" а норведці кажуть "яким
+                <span> ...</span> з".
+            </StyledRuleDescription>
+            <StyledAlert>
+                <StyledAlertLabel>Важливо!</StyledAlertLabel>Норвежці часто
+                говорять швидко і можуть зовсім пропустити "som".{" "}
+                <StyledRuleExample>
+                    "Jeg har en venn jeg ofte prater med".
+                </StyledRuleExample>
+            </StyledAlert>
         </StyledRuleWrapper>
     );
 };

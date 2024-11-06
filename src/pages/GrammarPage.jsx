@@ -58,7 +58,7 @@ const GrammarPage = () => {
         },
         {
             ruleName: "adjective",
-            ruleLable: "Прикментник",
+            ruleLable: "Прикметник",
         },
         {
             ruleName: "leddsetning",
