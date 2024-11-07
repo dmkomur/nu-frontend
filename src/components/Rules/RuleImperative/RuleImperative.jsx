@@ -5,6 +5,7 @@ import {
     StyledAlertLabel,
 } from "../../common/rules/RuleAlert.styled";
 import { StyledRuleWrapper } from "../../common/rules/RulePWrapper.styled";
+import StyledRuleExample from "../../common/rules/RuleExample.styled";
 
 const RuleImperative = () => {
     return (
@@ -14,7 +15,12 @@ const RuleImperative = () => {
             </StyledRuleHeader>
             <StyledRuleDescription>
                 Наказова форму дієслова вказує на волевиявлення i спонукає до
-                дії. <i> Наприклад: "йди!", "їж!", "сiдайте!"</i>.
+                дії.{" "}
+                <StyledRuleExample>
+                    {" "}
+                    Наприклад: "йди!", "їж!", "сiдайте!"
+                </StyledRuleExample>
+                .
             </StyledRuleDescription>
             <StyledRuleDescription>
                 Щоб утворити наказову форму дієслова, потрібно просто усунути
@@ -40,11 +46,11 @@ const RuleImperative = () => {
                 <span>Gå hjem!</span> - Іди додому!
                 <br />
                 <span>Bli med meg!</span> - Ходімо зі мною!{" "}
-                <i>
+                <StyledRuleExample>
                     Дієслово "Bli" перекладається як "ставати", але в основному
                     передбачає зміну стану і переміщення, і використовується для
                     розташування в майбутньому.
-                </i>
+                </StyledRuleExample>
             </StyledRuleDescription>
             <StyledAlert>
                 <StyledAlertLabel>Важливо!</StyledAlertLabel>Так як наказова

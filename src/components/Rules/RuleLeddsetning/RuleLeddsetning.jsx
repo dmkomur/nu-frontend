@@ -17,6 +17,14 @@ const RuleLeddsetning = () => {
                 речення. Підрядні речення можуть вводитися сполучниками та
                 виконують різні функції, такі як визначення, пояснення, вказівка
                 на час, причину тощо.
+                <br />Є один важливий момент який стосується всіх видів
+                підрядних речення - коли підрядна частина речення стоїть другою
+                сагальному реченні - слова "ikke" (не), "altid" ("завжди") і
+                "aldri" (ніколи) ставитися перед дієсловом!{" "}
+                <StyledRuleExample>
+                    "Jeg sa at jeg <span>ikke</span> liker lakris" - "Я сказав
+                    що мені не подобається лакриця".
+                </StyledRuleExample>
             </StyledRuleDescription>
 
             <StyledRuleDescription>
@@ -29,8 +37,8 @@ const RuleLeddsetning = () => {
                 принципом із дієсловом на другому місці.
                 <br />
                 <StyledRuleExample>
-                    Наприклад: "Jeg sier <span>at jeg liker høsten</span>" - "Я
-                    кажу, <span>що</span> я люблю осінь".
+                    Наприклад: "Jeg sier <span>at jeg ikke liker høsten</span>"
+                    - "Я кажу, <span>що</span> я не люблю осінь".
                 </StyledRuleExample>
                 <br />
                 Як видно у прикладі, друга (підрядна) частина речення не здатна

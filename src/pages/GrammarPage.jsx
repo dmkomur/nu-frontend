@@ -64,6 +64,10 @@ const GrammarPage = () => {
             ruleName: "leddsetning",
             ruleLable: "Підрядне речення",
         },
+        {
+            ruleName: "possessive",
+            ruleLable: "Присвійні прикметники",
+        },
     ];
 
     const location = useLocation();

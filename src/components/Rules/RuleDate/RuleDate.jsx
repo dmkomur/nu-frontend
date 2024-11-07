@@ -41,6 +41,8 @@ const RuleDate = () => {
                 <span>Neste onsdag</span> - наступної середи.
                 <br />
                 <span>Neste uke</span> - наступного тижня.
+                <br />
+                <span>Medcen gang</span> - одразу.
             </StyledRuleDescription>
             <StyledRuleDescription>
                 Пора року:

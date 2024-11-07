@@ -12,6 +12,8 @@ import RulePast from "./RulePast/RulePast";
 import RuleQuestion from "./RuleQuestion/RuleQuestion";
 import RuleAdjective from "./RuleAdjective/RuleAdjective";
 import RuleLeddsetning from "./RuleLeddsetning/RuleLeddsetning";
+import RulePossessive from "./RulePossessive/RulePossessive";
+
 function Rule() {
     const { rule } = useParams();
     const renderRule = () => {
@@ -40,8 +42,8 @@ function Rule() {
                 return <RuleQuestion />;
             case "adjective":
                 return <RuleAdjective />;
-            case "leddsetning":
-                return <RuleLeddsetning />;
+            case "possessive":
+                return <RulePossessive />;
 
             default:
                 return <p>Please select a valid grammar rule.</p>;
