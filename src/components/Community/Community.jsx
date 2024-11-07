@@ -5,7 +5,6 @@ import {
 } from "./Community.styled";
 import Container from "../common/container/Container";
 import menImage from "../../assets/men.webp";
-import kidsImage from "../../assets/kids.webp";
 import pubImage from "../../assets/pub.webp";
 
 const Community = () => {
