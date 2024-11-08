@@ -44,6 +44,8 @@ function Rule() {
                 return <RuleAdjective />;
             case "possessive":
                 return <RulePossessive />;
+            case "leddsetning":
+                return <RuleLeddsetning />;
 
             default:
                 return <p>Please select a valid grammar rule.</p>;

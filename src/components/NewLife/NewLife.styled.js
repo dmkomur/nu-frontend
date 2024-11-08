@@ -83,8 +83,8 @@ export const StyledNewLifeConnector = styled.div`
             top: 50%;
             left: 68%;
             transform: translateX(-50%);
-            width: 220px;
-            height: 220px;
+            width: 240px;
+            height: 240px;
         }
 
         &::after {
