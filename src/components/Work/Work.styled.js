@@ -45,3 +45,9 @@ export const StyledWorkSubtitle = styled.h4`
     font-size: 24px;
     font-weight: 700;
 `;
+
+export const StyledWorkLink = styled.a`
+    font-style: italic;
+    text-decoration: underline;
+    color: ${materialPalette.primaryVariant};
+`;

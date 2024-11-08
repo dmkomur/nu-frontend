@@ -8,6 +8,19 @@ export const StyledNewLifeConnector = styled.div`
     height: 240px; /* Высота по умолчанию для мобильных устройств */
     overflow: hidden;
 
+    &::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 70%;
+        transform: translateX(-50%);
+        width: 150px;
+        height: 150px;
+        background-color: #cb9e36;
+        border-radius: 50%;
+        z-index: -2;
+    }
+
     &::after {
         content: "";
         position: absolute;
@@ -34,6 +47,15 @@ export const StyledNewLifeConnector = styled.div`
 
     @media (min-width: ${breakpoints.tablet}) {
         height: 320px;
+        &::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 70%;
+            transform: translateX(-50%);
+            width: 200px;
+            height: 200px;
+        }
 
         &::after {
             clip-path: polygon(
@@ -53,7 +75,17 @@ export const StyledNewLifeConnector = styled.div`
     }
 
     @media (min-width: ${breakpoints.desktop}) {
-        height: 480px; /* Высота для настольных устройств */
+        height: 480px;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 68%;
+            transform: translateX(-50%);
+            width: 220px;
+            height: 220px;
+        }
 
         &::after {
             clip-path: polygon(
