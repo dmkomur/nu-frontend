@@ -13,6 +13,7 @@ import RuleQuestion from "./RuleQuestion/RuleQuestion";
 import RuleAdjective from "./RuleAdjective/RuleAdjective";
 import RuleLeddsetning from "./RuleLeddsetning/RuleLeddsetning";
 import RulePossessive from "./RulePossessive/RulePossessive";
+import RuleComparison from "./RuleСomparison/RuleСomparison";
 
 function Rule() {
     const { rule } = useParams();
@@ -46,6 +47,8 @@ function Rule() {
                 return <RulePossessive />;
             case "leddsetning":
                 return <RuleLeddsetning />;
+            case "comparison":
+                return <RuleComparison />;
 
             default:
                 return <p>Please select a valid grammar rule.</p>;

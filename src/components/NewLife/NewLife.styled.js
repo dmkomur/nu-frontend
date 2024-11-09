@@ -16,7 +16,7 @@ export const StyledNewLifeConnector = styled.div`
         transform: translateX(-50%);
         width: 150px;
         height: 150px;
-        background-color: #cb9e36;
+        background-color: #f3e5ab;
         border-radius: 50%;
         z-index: -2;
     }

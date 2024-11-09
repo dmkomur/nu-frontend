@@ -61,6 +61,10 @@ const GrammarPage = () => {
             ruleLable: "Прикметник",
         },
         {
+            ruleName: "comparison",
+            ruleLable: "Порівняння",
+        },
+        {
             ruleName: "leddsetning",
             ruleLable: "Підрядне речення",
         },
