@@ -19,8 +19,8 @@ export const StyledScrollUpButton = styled.button`
     justify-content: center;
     cursor: pointer;
     transition: all 300ms ease;
-    opacity: ${({ visible }) => (visible ? 1 : 0)};
-    pointer-events: ${({ visible }) => (visible ? "auto" : "none")};
+    opacity: ${({ $visible }) => ($visible ? 1 : 0)};
+    pointer-events: ${({ $visible }) => ($visible ? "auto" : "none")};
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3), 0px 3px 6px rgba(0, 0, 0, 0.2);
 
     &:hover {

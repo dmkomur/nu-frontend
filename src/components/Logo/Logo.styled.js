@@ -23,7 +23,7 @@ export const StyledLogoText = styled.p`
     &::before {
         content: "";
         position: absolute;
-        left: calc(50% - 10px);
+        left: calc(50% - 8px);
         top: 2px;
         width: 6px;
         height: 12px;
@@ -57,12 +57,13 @@ export const StyledLogoText = styled.p`
     @media (min-width: ${breakpoints.tablet}) {
         font-size: 36px;
         &::before {
-            content: "";
             top: 6px;
+            left: calc(50% - 10px);
         }
 
         &::after {
             top: 6px;
+            left: calc(50% + 0px);
         }
     }
 

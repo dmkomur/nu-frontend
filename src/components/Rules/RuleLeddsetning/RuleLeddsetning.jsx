@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { StyledRuleHeader } from "../../common/rules/RuleHeader.styled";
 import StyledRuleDescription from "../../common/rules/RuleDescription";
 import {
@@ -19,11 +20,12 @@ const RuleLeddsetning = () => {
                 на час, причину тощо.
                 <br />Є один важливий момент який стосується всіх видів
                 підрядних речення - коли підрядна частина речення стоїть другою
-                сагальному реченні - слова "ikke" (не), "altid" ("завжди") і
-                "aldri" (ніколи) ставитися перед дієсловом!{" "}
+                сагальному реченні - слова &quot;ikke&quot; (не),
+                &quot;altid&quot; (&quot;завжди&quot;) і &quot;aldri&quot;
+                (ніколи) ставитися перед дієсловом!{" "}
                 <StyledRuleExample>
-                    "Jeg sa at jeg <span>ikke</span> liker lakris" - "Я сказав
-                    що мені не подобається лакриця".
+                    &quot;Jeg sa at jeg <span>ikke</span> liker lakris&quot; -
+                    &quot;Я сказав що мені не подобається лакриця&quot;.
                 </StyledRuleExample>
             </StyledRuleDescription>
 
@@ -33,34 +35,37 @@ const RuleLeddsetning = () => {
                 Основна частина речення як завжди будується за принципом{" "}
                 <span>SVO</span>, підрядна частина починається з сполучника{" "}
                 <span>At</span> або <span>Om </span> але вважається що сполучник
-                займає "нульову" позицію, далі речення будується за загальним
-                принципом із дієсловом на другому місці.
+                займає &quot;нульову&quot; позицію, далі речення будується за
+                загальним принципом із дієсловом на другому місці.
                 <br />
                 <StyledRuleExample>
-                    Наприклад: "Jeg sier <span>at jeg ikke liker høsten</span>"
-                    - "Я кажу, <span>що</span> я не люблю осінь".
+                    Наприклад: &quot;Jeg sier{" "}
+                    <span>at jeg ikke liker høsten</span>&quot; - &quot;Я кажу,{" "}
+                    <span>що</span> я не люблю осінь&quot;.
                 </StyledRuleExample>
                 <br />
                 Як видно у прикладі, друга (підрядна) частина речення не здатна
-                бути самостійною і звучить дивно - "
-                <span>at jeg liker høsten</span>" - "що я люблю осінь".
+                бути самостійною і звучить дивно - &quot;
+                <span>at jeg liker høsten</span>&quot; - &quot;що я люблю
+                осінь&quot;.
                 <br />
                 <StyledRuleExample>
-                    Приклад: "Hun spør
-                    <span> om det var godt i hytta</span>" - "Вона запитує,{" "}
-                    <span>чи</span> добре було в хатині".
+                    Приклад: &quot;Hun spør
+                    <span> om det var godt i hytta</span>&quot; - &quot;Вона
+                    запитує, <span>чи</span> добре було в хатині&quot;.
                 </StyledRuleExample>
-                <br />З сполучникам "Om" ситуація така сама, для зручності
-                розуміння можна його перекласти як "про те".
+                <br />З сполучникам &quot;Om&quot; ситуація така сама, для
+                зручності розуміння можна його перекласти як &quot;про те&quot;.
             </StyledRuleDescription>
             <StyledAlert>
                 <StyledAlertLabel>Важливо!</StyledAlertLabel>Часто нам потрібно
                 поміняти займенник у підрядній частині речення.{" "}
                 <StyledRuleExample>
-                    Наприклад: "Mark sier: <span>Jeg</span> liker å fiske" -
-                    "Марк каже: <span>Я</span> люблю рибалити" = "Han sier at{" "}
-                    <span>han</span> liker å fiske" - "Він каже що{" "}
-                    <span>він</span> любить рибалити".
+                    Наприклад: &quot;Mark sier: <span>Jeg</span> liker å
+                    fiske&quot; - &quot;Марк каже: <span>Я</span> люблю
+                    рибалити&quot; = &quot;Han sier at <span>han</span> liker å
+                    fiske&quot; - &quot;Він каже що <span>він</span> любить
+                    рибалити&quot;.
                 </StyledRuleExample>
             </StyledAlert>
             <StyledRuleDescription>
@@ -72,150 +77,168 @@ const RuleLeddsetning = () => {
                 <br />
                 <span>Hva</span> - що.{" "}
                 <StyledRuleExample>
-                    Приклад: "Han spør <span>hva gjør hun</span>" - "Він
-                    запитує, <span>що вона робить</span>".
+                    Приклад: &quot;Han spør <span>hva gjør hun</span>&quot; -
+                    &quot;Він запитує, <span>що вона робить</span>&quot;.
                 </StyledRuleExample>
                 <br />
                 <span>Hvem</span> - що.{" "}
                 <StyledRuleExample>
-                    Приклад: "Han spør <span>hvem hun ringer til</span>" - "Він
-                    запитує, <span>кому вона дзвонить</span>".
+                    Приклад: &quot;Han spør <span>hvem hun ringer til</span>
+                    &quot; - &quot;Він запитує, <span>кому вона дзвонить</span>
+                    &quot;.
                 </StyledRuleExample>
                 <br />
                 <span>Hvor</span> - куди.{" "}
                 <StyledRuleExample>
-                    Приклад: "Han vet ikke <span>hvor hun drar</span>" - "Він не
-                    знає, <span>куди вона їде</span>".
+                    Приклад: &quot;Han vet ikke <span>hvor hun drar</span>&quot;
+                    - &quot;Він не знає, <span>куди вона їде</span>&quot;.
                 </StyledRuleExample>
                 <br />
                 <span>Hvorfor</span> - чому.{" "}
                 <StyledRuleExample>
-                    Приклад: "Han lurer på
-                    <span> hvorfor hun er sykmeldt</span>" - "Він дивується,
-                    <span> чому вона на лікарняному</span>".
+                    Приклад: &quot;Han lurer på
+                    <span> hvorfor hun er sykmeldt</span>&quot; - &quot;Він
+                    дивується,
+                    <span> чому вона на лікарняному</span>&quot;.
                 </StyledRuleExample>
                 <br />
                 <span>Hvordan</span> - як.{" "}
                 <StyledRuleExample>
-                    Приклад: "Han sier
-                    <span> hvordan hun skal øve</span>" - "Він розповідає,
-                    <span> як вона буде тренуватися</span>".
+                    Приклад: &quot;Han sier
+                    <span> hvordan hun skal øve</span>&quot; - &quot;Він
+                    розповідає,
+                    <span> як вона буде тренуватися</span>&quot;.
                 </StyledRuleExample>
             </StyledRuleDescription>
             <StyledRuleDescription>
                 Підрядні речення зі сполучниками <span>Da</span> (Тоді/Тоді як)
                 та <span>Når </span>(Коли). <br />
-                Загалом можна сказати, що обидва варіанти і "Da" і "Når" можна
-                перекласти як "Коли", але перший використовується для минулого,
-                а другий для майбутнього і теперішнього, але щоб уникнути
-                плутанини краще запам'ятати їх як "Тоді" і "Коли".
+                Загалом можна сказати, що обидва варіанти і &quot;Da&quot; і
+                &quot;Når&quot; можна перекласти як &quot;Коли&quot;, але перший
+                використовується для минулого, а другий для майбутнього і
+                теперішнього, але щоб уникнути плутанини краще запам'ятати їх як
+                &quot;Тоді&quot; і &quot;Коли&quot;.
                 <br />
                 Cтруктура речення залежить від того де знаходиться підрядна
                 частина. <br />У випадках коли підрядна частина йде другою,
                 структура основної буде класична <span>SVO</span>.
                 <br />
                 <StyledRuleExample>
-                    Наприклад: "<span>Barna blir alltid begeistret</span> når de
-                    får is" - "<span>Діти завжди в захваті</span>, коли вони
-                    отримують морозиво".
+                    Наприклад: &quot;<span>Barna blir alltid begeistret</span>{" "}
+                    når de får is&quot; - &quot;
+                    <span>Діти завжди в захваті</span>, коли вони отримують
+                    морозиво&quot;.
                 </StyledRuleExample>
                 <br />
                 Коли ж підрядна частина йде першою, структура основної буде
                 <span> VSO</span>, тобто починатися з дієслова.
                 <br />
                 <StyledRuleExample>
-                    Наприклад: "Da jeg var liten,{" "}
-                    <span>bodde jeg i Ukraina</span>" - "Тоді як я був
-                    маленьким, <spanm>жив я в Україні</spanm>".
+                    Наприклад: &quot;Da jeg var liten,{" "}
+                    <span>bodde jeg i Ukraina</span>&quot; - &quot;Тоді як я був
+                    маленьким, <spanm>жив я в Україні</spanm>&quot;.
                 </StyledRuleExample>
                 <br />
                 <span>Da</span> використовується в підрядній частині та описує
                 минуле.
                 <br />
                 <StyledRuleExample>
-                    Наприклад: "Hun bodde i Spania <span>da</span> hun var
-                    liten" - "Вона жила в Іспанії<span> тоді як</span> вона була
-                    маленька".
+                    Наприклад: &quot;Hun bodde i Spania <span>da</span> hun var
+                    liten&quot; - &quot;Вона жила в Іспанії<span> тоді як</span>{" "}
+                    вона була маленька&quot;.
                 </StyledRuleExample>
                 <br />
                 <span>Når </span> використовується для опису майбутнього та
                 регулярних дій.
                 <br />
                 <StyledRuleExample>
-                    Наприклад: "<span>Når</span> jeg blir gammel, skal jeg
-                    flytte til Tunisia" - "<span>Коли</span> я стану старим,
-                    переїду я до Тунісу".
+                    Наприклад: &quot;<span>Når</span> jeg blir gammel, skal jeg
+                    flytte til Tunisia&quot; - &quot;<span>Коли</span> я стану
+                    старим, переїду я до Тунісу&quot;.
                 </StyledRuleExample>
                 <br />
                 <StyledRuleExample>
-                    Приклад: "<span>Når</span> jeg går på skolen, lærer jeg
-                    mange nye ord" - "<span>Коли</span> я ходжу до школи, вивчаю
-                    я багато нових слів".
+                    Приклад: &quot;<span>Når</span> jeg går på skolen, lærer jeg
+                    mange nye ord&quot; - &quot;<span>Коли</span> я ходжу до
+                    школи, вивчаю я багато нових слів&quot;.
                 </StyledRuleExample>
             </StyledRuleDescription>
             <StyledRuleDescription>
                 Підрядні речення зі сполучником <span>Som</span>. <br />
-                Загалом сполучником "Som" з'єднує два речення в одне, і в
-                підрядній частині виконує функції суб'єкта або об'єкта.
+                Загалом сполучником &quot;Som&quot; з'єднує два речення в одне,
+                і в підрядній частині виконує функції суб'єкта або об'єкта.
                 <br />
                 <span>Som</span> - як, який, яка, які, яким, з яким, якого...
-                "Som" - це швейцарський ніж. <br />
+                &quot;Som&quot; - це швейцарський ніж. <br />
                 Основна частина речення будується стандартно - <span>SVO</span>,
                 з підрядною будем розбиратись на прикладах.
                 <br />
                 Припустим ми хочемо скласти з двох речень одне -{" "}
-                <StyledRuleExample>"Я маю друга"</StyledRuleExample> та{" "}
-                <StyledRuleExample>"Він живе в Осло"</StyledRuleExample>.
-                Українською ми скажем приблизно так -{" "}
                 <StyledRuleExample>
-                    "Я маю друга, який живе в Осло"
+                    &quot;Я маю друга&quot;
+                </StyledRuleExample>{" "}
+                та{" "}
+                <StyledRuleExample>
+                    &quot;Він живе в Осло&quot;
+                </StyledRuleExample>
+                . Українською ми скажем приблизно так -{" "}
+                <StyledRuleExample>
+                    &quot;Я маю друга, який живе в Осло&quot;
                 </StyledRuleExample>
                 . Теж саме нам потрібно реалізувати норвежською.
                 <br />
                 Основана частина -
-                <StyledRuleExample> "Jeg har en venn"</StyledRuleExample>,
-                підрядна -{" "}
                 <StyledRuleExample>
-                    "<span>som</span> bor i Oslo".
+                    {" "}
+                    &quot;Jeg har en venn&quot;
+                </StyledRuleExample>
+                , підрядна -{" "}
+                <StyledRuleExample>
+                    &quot;<span>som</span> bor i Oslo&quot;.
                 </StyledRuleExample>{" "}
-                У нашому прикладі "som" виконує роль <span>суб'єкта</span> і
-                дієслово cтоїть відразу за ним -{" "}
+                У нашому прикладі &quot;som&quot; виконує роль{" "}
+                <span>суб'єкта</span> і дієслово cтоїть відразу за ним -{" "}
                 <StyledRuleExample>
-                    "Jeg har en venn som bor i Oslo".
+                    &quot;Jeg har en venn som bor i Oslo&quot;.
                 </StyledRuleExample>
                 <br />
                 Тепер складемо інші речення в одне.{" "}
                 <StyledRuleExample>
-                    "Ми будемо дивитися фільм"
+                    &quot;Ми будемо дивитися фільм&quot;
                 </StyledRuleExample>{" "}
-                та <StyledRuleExample>"Я бачив фільм раніше"</StyledRuleExample>
+                та{" "}
+                <StyledRuleExample>
+                    &quot;Я бачив фільм раніше&quot;
+                </StyledRuleExample>
                 . В нас вийде -{" "}
                 <StyledRuleExample>
-                    "Ми будемо дивитися фільм <span>який</span> я бачив раніше".
+                    &quot;Ми будемо дивитися фільм <span>який</span> я бачив
+                    раніше&quot;.
                 </StyledRuleExample>{" "}
                 Норвезькую буде так -{" "}
                 <StyledRuleExample>
                     Vi skal se en film <span>som</span> jeg har sett før
                 </StyledRuleExample>
-                . В підрядній частині "som" виконує роль <span>об'єкта</span>,
-                cуб'єктом є "jeg" (я) - той хто виконую дію в підрядній частині.
-                Таким чином після "som" ми ставимо суб'єкт і дієслово{" "}
-                <span>SV</span>, а об'єкт прибираємо так як його роль вже зіграв
-                "som".
+                . В підрядній частині &quot;som&quot; виконує роль{" "}
+                <span>об'єкта</span>, cуб'єктом є &quot;jeg&quot; (я) - той хто
+                виконую дію в підрядній частині. Таким чином після
+                &quot;som&quot; ми ставимо суб'єкт і дієслово <span>SV</span>, а
+                об'єкт прибираємо так як його роль вже зіграв &quot;som&quot;.
                 <br />
                 <StyledRuleExample>
-                    Ще приклад: "Jeg har en venn <span>som</span> jeg ofte
-                    prater <span>med</span>" - "У мене є дург{" "}
-                    <span>з яким</span> я часто говорю".
+                    Ще приклад: &quot;Jeg har en venn <span>som</span> jeg ofte
+                    prater <span>med</span>&quot; - &quot;У мене є дург{" "}
+                    <span>з яким</span> я часто говорю&quot;.
                 </StyledRuleExample>{" "}
-                Зверніть увагу що ми говоримо "з яким" а норведці кажуть "яким
-                <span> ...</span> з".
+                Зверніть увагу що ми говоримо &quot;з яким&quot; а норведці
+                кажуть &quot;яким
+                <span> ...</span> з&quot;.
             </StyledRuleDescription>
             <StyledAlert>
                 <StyledAlertLabel>Важливо!</StyledAlertLabel>Норвежці часто
-                говорять швидко і можуть зовсім пропустити "som".{" "}
+                говорять швидко і можуть зовсім пропустити &quot;som&quot;.{" "}
                 <StyledRuleExample>
-                    "Jeg har en venn jeg ofte prater med".
+                    &quot;Jeg har en venn jeg ofte prater med&quot;.
                 </StyledRuleExample>
             </StyledAlert>
         </StyledRuleWrapper>

@@ -1,9 +1,5 @@
 import { StyledRuleHeader } from "../../common/rules/RuleHeader.styled";
 import StyledRuleDescription from "../../common/rules/RuleDescription";
-import {
-    StyledAlert,
-    StyledAlertLabel,
-} from "../../common/rules/RuleAlert.styled";
 import { StyledRuleWrapper } from "../../common/rules/RulePWrapper.styled";
 import StyledRuleExample from "../../common/rules/RuleExample.styled";
 
@@ -15,21 +11,24 @@ const RuleСomparison = () => {
                 Ми використовуємо порівняння, коли говоримо про щось схоже, в
                 новежській мові це працює досить просто.
                 <br />
-                Більшість прикметників отримують закінчення "<span>-ere</span>"
-                коли вказують який іменник "більший".
+                Більшість прикметників отримують закінчення &quot;
+                <span>-ere</span>&quot; коли вказують який іменник
+                &quot;більший&quot;.
                 <br />
                 <StyledRuleExample>
-                    Приклади: "<span>fin - finnere</span>" - "приємний —
-                    приємніший", "<span>lys - lysere</span>" - "світлий -
-                    світліший".
+                    Приклади: &quot;<span>fin - finnere</span>&quot; -
+                    &quot;приємний — приємніший&quot;, &quot;
+                    <span>lys - lysere</span>&quot; - &quot;світлий -
+                    світліший&quot;.
                 </StyledRuleExample>
                 <br />
-                Щоб сказати "най" до прикметника додають закінчення "
-                <span>-est</span>".
+                Щоб сказати &quot;най&quot; до прикметника додають закінчення
+                &quot;
+                <span>-est</span>&quot;.
                 <br />
                 <StyledRuleExample>
-                    Нариклад: "<span>lys - lysere - lysest</span>" - "світлий -
-                    світліший - най світліший".
+                    Нариклад: &quot;<span>lys - lysere - lysest</span>&quot; -
+                    &quot;світлий - світліший - най світліший&quot;.
                 </StyledRuleExample>
             </StyledRuleDescription>
             <StyledRuleDescription>
@@ -37,10 +36,10 @@ const RuleСomparison = () => {
                 універсальний метод.
                 <br />
                 <StyledRuleExample>
-                    Нариклад: "praktisk - <span>mer </span>praktisk -{" "}
-                    <span>mest </span>praktisk" - "практичний -{" "}
+                    Нариклад: &quot;praktisk - <span>mer </span>praktisk -{" "}
+                    <span>mest </span>praktisk&quot; - &quot;практичний -{" "}
                     <span>більш </span>
-                    практичний - <span>най більш </span> практичний".
+                    практичний - <span>най більш </span> практичний&quot;.
                 </StyledRuleExample>
             </StyledRuleDescription>
             <StyledRuleDescription>
@@ -59,8 +58,8 @@ const RuleСomparison = () => {
             </StyledRuleDescription>
             <StyledRuleDescription>
                 Хоча це не порівняння а зіставлення, але треба пояснити
-                використання "<span>derfor</span>" та "<span>fordi</span>".{" "}
-                <br />
+                використання &quot;<span>derfor</span>&quot; та &quot;
+                <span>fordi</span>&quot;. <br />
                 <span>Derfor</span> - тому. Вказує на <span>слідство </span>
                 та використовується у відповідних частинах речення.
                 <br />
@@ -68,21 +67,24 @@ const RuleСomparison = () => {
                 .
                 <br />
                 <StyledRuleExample>
-                    Нариклади: "I dag er bursdagen min. Jeg baker en kake." -
-                    "Сьогодні мій день народження. Я печу торт."
+                    Нариклади: &quot;I dag er bursdagen min. Jeg baker en
+                    kake.&quot; - &quot;Сьогодні мій день народження. Я печу
+                    торт.&quot;
                     <br />
-                    "I dag er bursdagen min{" "}
-                    <span>derfor baker jeg en kake</span>" - "Cьогодні мій день
-                    народження, <span>тому печу я торт</span>".
+                    &quot;I dag er bursdagen min{" "}
+                    <span>derfor baker jeg en kake</span>&quot; - &quot;Cьогодні
+                    мій день народження, <span>тому печу я торт</span>&quot;.
                     <br />
-                    "Jeg baker en kake{" "}
-                    <span> fordi det er bursdagen min i dag</span>" - "Я печу
-                    торт <span>через те що мій день народження сьогодні</span>
-                    ".
-                    <br />"<span>Fordi i dag er det bursdagen min</span>, baker
-                    jeg en kake" - "{" "}
+                    &quot;Jeg baker en kake{" "}
+                    <span> fordi det er bursdagen min i dag</span>&quot; -
+                    &quot;Я печу торт{" "}
+                    <span>через те що мій день народження сьогодні</span>
+                    &quot;.
+                    <br />
+                    &quot;<span>Fordi i dag er det bursdagen min</span>, baker
+                    jeg en kake&quot; - &quot;{" "}
                     <span>Через те що сьогодні мій день народження</span>, я
-                    печу торт".
+                    печу торт&quot;.
                 </StyledRuleExample>
             </StyledRuleDescription>
         </StyledRuleWrapper>

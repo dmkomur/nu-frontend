@@ -26,7 +26,7 @@ const ScrollUpButton = () => {
     };
 
     return (
-        <StyledScrollUpButton onClick={scrollToTop} visible={isVisible}>
+        <StyledScrollUpButton onClick={scrollToTop} $visible={isVisible}>
             <UpArrowSvg style={{ stroke: "black" }} />
         </StyledScrollUpButton>
     );
