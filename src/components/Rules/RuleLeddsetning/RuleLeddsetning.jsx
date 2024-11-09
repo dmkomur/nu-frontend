@@ -64,6 +64,45 @@ const RuleLeddsetning = () => {
                 </StyledRuleExample>
             </StyledAlert>
             <StyledRuleDescription>
+                Підрядні речення із запитальними словами утворюються дуже просто
+                - основна частина речення як завжди будується за принципом{" "}
+                <span>SVO</span>, підрядна частина починається з запитального
+                слова, яке займає нульову позицію, а далі підрядна частина теж в
+                порядку <span>SVO</span>.
+                <br />
+                <span>Hva</span> - що.{" "}
+                <StyledRuleExample>
+                    Приклад: "Han spør <span>hva gjør hun</span>" - "Він
+                    запитує, <span>що вона робить</span>".
+                </StyledRuleExample>
+                <br />
+                <span>Hvem</span> - що.{" "}
+                <StyledRuleExample>
+                    Приклад: "Han spør <span>hvem hun ringer til</span>" - "Він
+                    запитує, <span>кому вона дзвонить</span>".
+                </StyledRuleExample>
+                <br />
+                <span>Hvor</span> - куди.{" "}
+                <StyledRuleExample>
+                    Приклад: "Han vet ikke <span>hvor hun drar</span>" - "Він не
+                    знає, <span>куди вона їде</span>".
+                </StyledRuleExample>
+                <br />
+                <span>Hvorfor</span> - чому.{" "}
+                <StyledRuleExample>
+                    Приклад: "Han lurer på
+                    <span> hvorfor hun er sykmeldt</span>" - "Він дивується,
+                    <span> чому вона на лікарняному</span>".
+                </StyledRuleExample>
+                <br />
+                <span>Hvordan</span> - як.{" "}
+                <StyledRuleExample>
+                    Приклад: "Han sier
+                    <span> hvordan hun skal øve</span>" - "Він розповідає,
+                    <span> як вона буде тренуватися</span>".
+                </StyledRuleExample>
+            </StyledRuleDescription>
+            <StyledRuleDescription>
                 Підрядні речення зі сполучниками <span>Da</span> (Тоді/Тоді як)
                 та <span>Når </span>(Коли). <br />
                 Загалом можна сказати, що обидва варіанти і "Da" і "Når" можна
