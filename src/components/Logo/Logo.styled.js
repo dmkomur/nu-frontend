@@ -2,32 +2,33 @@ import styled from "styled-components";
 import breakpoints from "../../styles/breakpoints";
 import materialPalette from "../../styles/palette";
 import { Link } from "react-router-dom";
+
 export const StyledLogoWrapper = styled(Link)`
     display: flex;
     gap: 8px;
     justify-content: center;
     cursor: pointer;
     &:hover p {
-        color: ${materialPalette.secondary};
+        color: ${materialPalette.primary};
     }
 `;
 
 export const StyledLogoText = styled.p`
     font-family: "Abril Fatface", serif;
     font-size: 28px;
-    color: ${materialPalette.primary};
+    color: ${materialPalette.secondary};
     transition: color 300ms ease;
     position: relative;
-    span {
-        color: ${materialPalette.secondary};
-    }
+
     &::before {
         content: "";
         position: absolute;
         left: calc(50% - 10px);
         top: 2px;
-        width: 12px;
+        width: 6px;
         height: 12px;
+        transform: rotate(20deg);
+
         border-radius: 50%;
         background-color: #005eb8;
         transition: top 300ms ease;
@@ -36,9 +37,10 @@ export const StyledLogoText = styled.p`
     &::after {
         content: "";
         position: absolute;
-        left: calc(50% + 8px);
+        left: calc(50% + 0px);
         top: 2px;
-        width: 12px;
+        width: 6px;
+        transform: rotate(30deg);
         height: 12px;
         border-radius: 50%;
         background-color: #ffd700;
@@ -68,7 +70,7 @@ export const StyledLogoText = styled.p`
         font-size: 38px;
     }
 `;
-export const StyledLogoPic = styled.img`
-    height: auto;
-    width: 70px;
+
+export const StyledLogoLetterBlue = styled.span`
+    color: ${materialPalette.primary};
 `;
