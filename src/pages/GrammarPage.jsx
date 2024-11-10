@@ -29,6 +29,14 @@ const GrammarPage = () => {
             ruleLable: "Дієслово",
         },
         {
+            ruleName: "question",
+            ruleLable: "Питання",
+        },
+        {
+            ruleName: "date",
+            ruleLable: "Дата і час",
+        },
+        {
             ruleName: "modal",
             ruleLable: "Модальне дієслово",
         },
@@ -36,10 +44,7 @@ const GrammarPage = () => {
             ruleName: "imperative",
             ruleLable: "Наказова форму дієслова",
         },
-        {
-            ruleName: "date",
-            ruleLable: "Дата і час",
-        },
+
         {
             ruleName: "location",
             ruleLable: "Розташування",
@@ -49,13 +54,14 @@ const GrammarPage = () => {
             ruleLable: "Напрям",
         },
         {
+            ruleName: "possessive",
+            ruleLable: "Присвійні прикметники",
+        },
+        {
             ruleName: "past",
             ruleLable: "Минулий час",
         },
-        {
-            ruleName: "question",
-            ruleLable: "Питання",
-        },
+
         {
             ruleName: "adjective",
             ruleLable: "Прикметник",
@@ -69,8 +75,8 @@ const GrammarPage = () => {
             ruleLable: "Підрядне речення",
         },
         {
-            ruleName: "possessive",
-            ruleLable: "Присвійні прикметники",
+            ruleName: "perfect",
+            ruleLable: "Теперішній завершений час",
         },
     ];
 
