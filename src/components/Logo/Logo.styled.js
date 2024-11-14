@@ -23,7 +23,7 @@ export const StyledLogoText = styled.p`
     &::before {
         content: "";
         position: absolute;
-        left: calc(50% - 8px);
+        left: calc(50% - 12px);
         top: 2px;
         width: 6px;
         height: 12px;
@@ -37,7 +37,7 @@ export const StyledLogoText = styled.p`
     &::after {
         content: "";
         position: absolute;
-        left: calc(50% + 0px);
+        left: calc(50% - 4px);
         top: 2px;
         width: 6px;
         transform: rotate(30deg);
@@ -58,12 +58,12 @@ export const StyledLogoText = styled.p`
         font-size: 36px;
         &::before {
             top: 6px;
-            left: calc(50% - 10px);
+            left: calc(50% - 12px);
         }
 
         &::after {
             top: 6px;
-            left: calc(50% + 0px);
+            left: calc(50% - 4px);
         }
     }
 

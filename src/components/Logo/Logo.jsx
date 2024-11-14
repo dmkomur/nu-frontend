@@ -8,9 +8,9 @@ const Logo = () => {
     return (
         <StyledLogoWrapper to="/" id="logo">
             <StyledLogoText>
-                <StyledLogoLetterBlue>u</StyledLogoLetterBlue>N
+                <StyledLogoLetterBlue>i</StyledLogoLetterBlue>N
                 <StyledLogoLetterBlue>o</StyledLogoLetterBlue>r
-                <StyledLogoLetterBlue>g</StyledLogoLetterBlue>e
+                <StyledLogoLetterBlue>s</StyledLogoLetterBlue>k
             </StyledLogoText>
         </StyledLogoWrapper>
     );
