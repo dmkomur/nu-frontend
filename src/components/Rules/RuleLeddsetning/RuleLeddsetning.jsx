@@ -11,7 +11,7 @@ import StyledRuleExample from "../../common/rules/RuleExample.styled";
 const RuleLeddsetning = () => {
     return (
         <StyledRuleWrapper>
-            <StyledRuleHeader>Підрядне речення (Laddsetning)</StyledRuleHeader>
+            <StyledRuleHeader>Підрядне речення (Leddsetning)</StyledRuleHeader>
             <StyledRuleDescription>
                 У граматиці це означає <span>залежне речення</span>, яке не може
                 існувати окремо і додає додаткову інформацію до головного
@@ -230,7 +230,7 @@ const RuleLeddsetning = () => {
                     prater <span>med</span>&quot; - &quot;У мене є дург{" "}
                     <span>з яким</span> я часто говорю&quot;.
                 </StyledRuleExample>{" "}
-                Зверніть увагу що ми говоримо &quot;з яким&quot; а норведці
+                Зверніть увагу що ми говоримо &quot;з яким&quot; а норвежці
                 кажуть &quot;яким
                 <span> ...</span> з&quot;.
             </StyledRuleDescription>

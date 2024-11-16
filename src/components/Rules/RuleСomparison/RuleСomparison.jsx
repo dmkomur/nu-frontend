@@ -63,7 +63,7 @@ const RuleСomparison = () => {
                 <span>Derfor</span> - тому. Вказує на <span>слідство </span>
                 та використовується у відповідних частинах речення.
                 <br />
-                <span>Frodi</span> - через те що. Вказує на <span>причину</span>
+                <span>Fordi</span> - через те що. Вказує на <span>причину</span>
                 .
                 <br />
                 <StyledRuleExample>
