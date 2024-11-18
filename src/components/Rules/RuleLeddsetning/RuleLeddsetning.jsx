@@ -19,10 +19,10 @@ const RuleLeddsetning = () => {
                 виконують різні функції, такі як визначення, пояснення, вказівка
                 на час, причину тощо.
                 <br />Є один важливий момент який стосується всіх видів
-                підрядних речення - коли підрядна частина речення стоїть другою
-                в загальному реченні - слова &quot;ikke&quot; (не),
-                &quot;altid&quot; (&quot;завжди&quot;) і &quot;aldri&quot;
-                (ніколи) ставляться перед дієсловом!{" "}
+                підрядних реченнь - слова (adverbial) &quot;ikke&quot; (не),
+                &quot;alltid&quot; (&quot;завжди&quot;), &quot;ofte&quot;
+                (&quot;часто&quot;) і &quot;aldri&quot; (ніколи) ставляться
+                перед дієсловом!{" "}
                 <StyledRuleExample>
                     &quot;Jeg sa at jeg <span>ikke</span> liker lakris&quot; -
                     &quot;Я сказав що мені не подобається лакриця&quot;.
