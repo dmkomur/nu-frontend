@@ -62,11 +62,11 @@ const RuleSentences = () => {
                 Якщо нам потрібно поставити показник часу або вказати місце або
                 якусь іншу інформацію <span>(adverbial)</span> на перше місце в
                 реченні, то <span>дієслово</span> все одно залишається на{" "}
-                <span>першому місці</span>, а суб'єк буде розташований за ним.
+                <span>другому місці</span>, а суб'єк буде розташований за ним.
                 <br />
                 <StyledRuleExample>
-                    Наприклад: "Nå <span>ser</span> jeg på TV" ("Зараз дивлюсь{" "}
-                    <span>я</span> тв")
+                    Наприклад: "Nå <span>ser</span> jeg på TV" ("Зараз{" "}
+                    <span>дивлюсь</span> я тв") - <span>AVSO</span>
                 </StyledRuleExample>
                 .
             </StyledRuleDescription>
