@@ -11,7 +11,7 @@ const RuleImperative = () => {
     return (
         <StyledRuleWrapper>
             <StyledRuleHeader>
-                Наказова форму дієслова (Verb: imperativ)
+                Наказова форма дієслова (Verb: imperativ)
             </StyledRuleHeader>
             <StyledRuleDescription>
                 Наказова форму дієслова вказує на волевиявлення i спонукає до

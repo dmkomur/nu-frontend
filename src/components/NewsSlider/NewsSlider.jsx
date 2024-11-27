@@ -50,7 +50,7 @@ const NewsSlider = ({ newsItems }) => {
                                 {news.source_name}
                             </StyledNewsSource>
                             <StyledNewsLink
-                                href={news.source_url}
+                                href={news.url}
                                 rel="noopener noreferrer"
                                 target="_blank"
                             >
