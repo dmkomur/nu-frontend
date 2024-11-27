@@ -40,7 +40,6 @@ export const StledNewsCard = styled.div`
     flex-direction: column;
     border-radius: 8px;
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: ${materialPalette.surface};
     justify-content: space-between;
     border-radius: 16px;

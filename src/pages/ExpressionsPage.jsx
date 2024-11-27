@@ -6,6 +6,7 @@ import { StyledExpressionList } from "../components/Expressions/ExpressionsList.
 import StyledRadioGroup from "../components/Expressions/RadiobuttonGroup.styled";
 import StyledRadioButton from "../components/Expressions/Radiobutton.styled";
 import Pagination from "../components/Expressions/ExpressionsPagination";
+import LoadingSpinner from "../components/common/loading/LoadingSpinner";
 
 const ExpressionsPage = () => {
     const options = [
@@ -78,7 +79,7 @@ const ExpressionsPage = () => {
 
             <StyledExpressionList>
                 {loading ? (
-                    <p>Loading...</p>
+                    <LoadingSpinner />
                 ) : (
                     expressions.map((expression) => (
                         <ExpressionCard

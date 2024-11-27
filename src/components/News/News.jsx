@@ -3,6 +3,7 @@ import axios from "axios";
 import Container from "../common/container/Container";
 import StyledSectionHeader from "../common/sectionHeader/SectionHeader.styled";
 import NewsSlider from "../NewsSlider/NewsSlider";
+import LoadingSpinner from "../common/loading/LoadingSpinner";
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -31,7 +32,7 @@ const News = () => {
     }, []);
 
     if (loading) {
-        return <p>Загрузка новостей...</p>;
+        return <LoadingSpinner />;
     }
 
     if (error) {

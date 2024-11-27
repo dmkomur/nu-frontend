@@ -29,7 +29,7 @@ const NewsSlider = ({ newsItems }) => {
             breakpoints={{
                 320: { slidesPerView: 1, spaceBetween: 20 },
                 768: { slidesPerView: 2, spaceBetween: 20 },
-                1280: { slidesPerView: 3, spaceBetween: 30 },
+                960: { slidesPerView: 3, spaceBetween: 30 },
             }}
         >
             {newsItems.map((news, index) => (
