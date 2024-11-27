@@ -7,6 +7,7 @@ import StyledRadioGroup from "../components/Expressions/RadiobuttonGroup.styled"
 import StyledRadioButton from "../components/Expressions/Radiobutton.styled";
 import Pagination from "../components/Expressions/ExpressionsPagination";
 import LoadingSpinner from "../components/common/loading/LoadingSpinner";
+const backendUrl = import.meta.env.VITE_BACKEND_URL;
 
 const ExpressionsPage = () => {
     const options = [
@@ -41,7 +42,7 @@ const ExpressionsPage = () => {
 
     useEffect(() => {
         axios
-            .get(`https://nu-backend.railway.internal/api/phrases`, {
+            .get(`https://${backendUrl}/api/phrases`, {
                 params: { theme: selectedOption, page: page },
             })
 
