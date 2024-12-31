@@ -47,6 +47,12 @@ const RuleQuestion = () => {
                     "Hvilke språk snakker du?" ("Якими мовами говориш ти?")
                 </StyledRuleExample>
                 <br />
+                <span>Når</span> - Коли?{" "}
+                <StyledRuleExample>
+                    "Når skal Angela lære språket?" ("Коли Анжела вивчить
+                    мову?")
+                </StyledRuleExample>
+                <br />
             </StyledRuleDescription>
 
             <StyledAlert>

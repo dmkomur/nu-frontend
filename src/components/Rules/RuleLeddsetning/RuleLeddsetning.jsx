@@ -19,10 +19,11 @@ const RuleLeddsetning = () => {
                 виконують різні функції, такі як визначення, пояснення, вказівка
                 на час, причину тощо.
                 <br />Є один важливий момент який стосується всіх видів
-                підрядних реченнь - слова (adverbial) &quot;ikke&quot; (не),
-                &quot;alltid&quot; (&quot;завжди&quot;), &quot;ofte&quot;
-                (&quot;часто&quot;) і &quot;aldri&quot; (ніколи) ставляться
-                перед дієсловом!{" "}
+                підрядних реченнь - слова (<span>adverbial</span>) такі як:
+                &quot;ikke&quot; (не), &quot;alltid&quot; (завжди),
+                &quot;ofte&quot; (часто), &quot;dessverre&quot; (на жаль),
+                &quot;aldri&quot; (ніколи)...{" "}
+                <span>ставляться перед дієсловом!</span>{" "}
                 <StyledRuleExample>
                     &quot;Jeg sa at jeg <span>ikke</span> liker lakris&quot; -
                     &quot;Я сказав що мені не подобається лакриця&quot;.
@@ -68,17 +69,27 @@ const RuleLeddsetning = () => {
                     рибалити&quot;.
                 </StyledRuleExample>
             </StyledAlert>
+
             <StyledRuleDescription>
                 Підрядні речення із запитальними словами утворюються дуже просто
                 - основна частина речення як завжди будується за принципом{" "}
                 <span>SVO</span>, підрядна частина починається з запитального
                 слова, яке займає нульову позицію, а далі підрядна частина теж в
-                порядку <span>SVO</span>.
+                порядку <span>SVO</span>. Якщо підрядна частина стоїть перед
+                основоною, то в основній дієслово йде першим а суб'єкт другим -{" "}
+                <span>VSO</span>
                 <br />
                 <span>Hva</span> - що.{" "}
                 <StyledRuleExample>
                     Приклад: &quot;Han spør <span>hva gjør hun</span>&quot; -
                     &quot;Він запитує, <span>що вона робить</span>&quot;.
+                </StyledRuleExample>
+                <br />
+                <span>Hvis</span> - що.{" "}
+                <StyledRuleExample>
+                    Приклад: &quot;<span>Hvis det regner,</span> blir vi
+                    hjemme&quot; - &quot;<span>Якщо піде дощ,</span> ми будемо
+                    вдома&quot;.
                 </StyledRuleExample>
                 <br />
                 <span>Hvem</span> - що.{" "}
@@ -110,6 +121,16 @@ const RuleLeddsetning = () => {
                     <span> як вона буде тренуватися</span>&quot;.
                 </StyledRuleExample>
             </StyledRuleDescription>
+            <StyledAlert>
+                <StyledAlertLabel>Важливо!</StyledAlertLabel>Якщо уявити що
+                підрядна частина речення це "одне слово/одна частина" (назвемо
+                її для зручності <span>"L"</span> ) то будова основноії частни
+                стає дуже простою <span>SVL</span> або <span>LVS</span> -
+                дієслово в основній частині, як не крути, на другому місці.{" "}
+                <br />
+                Таким чином грамотично треба розібратись лише з підрядною
+                частиною.
+            </StyledAlert>
             <StyledRuleDescription>
                 Підрядні речення зі сполучниками <span>Da</span> (Тоді/Тоді як)
                 та <span>Når </span>(Коли). <br />

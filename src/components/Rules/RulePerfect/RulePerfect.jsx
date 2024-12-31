@@ -48,8 +48,8 @@ const RulePerfect = () => {
                     "Jeg <span>har ikke spist</span> frokost" - "Я не поснідав".
                 </StyledRuleExample>
                 <br />
-                Незабувайте про "aldri" та "altid" які люблять влізти перед
-                дієсловом.
+                Не забувайте про <span>adverbial</span>: "aldri", "altid" які
+                люблять влізти поміж дієсловами.
                 <br />
                 <StyledRuleExample>
                     "Jeg <span>har aldri vært</span> i Paris" - "Я ніколи не був
@@ -69,7 +69,8 @@ const RulePerfect = () => {
                 Presens perfektum речення відповідають на питання "
                 <span>що трапилось</span>" а не на питання "
                 <span>коли трапилось</span>", це простий спосіб відрізняти їх
-                від простого минулого часу.
+                від простого минулого часу. Якщо вказано час - це минелу, якщо
+                ні - перфектум.
             </StyledAlert>
             <StyledRuleDescription>
                 Також важливий прийом це коли ми розповідаємо,{" "}
