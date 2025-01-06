@@ -79,6 +79,38 @@ const RuleModal = () => {
                     Наприклад: "Jeg skal hjem" ("Я їхатиму додому").
                 </StyledRuleExample>
             </StyledAlert>
+            <StyledRuleDescription>
+                Ми використовуємо <span>минулий час модальних дієслів</span> для
+                минулого.
+                <StyledRuleExample>
+                    {" "}
+                    Наприклад: "Da jeg kom hit, <span>kunne</span> jeg ikke
+                    norsk" ("Коли я приїхав сюди, я не знав норвезької").
+                </StyledRuleExample>
+                <br />
+                Skal - <span> Skulle</span> - планував/збирався.
+                <br />
+                Vil - <span> Ville</span> - хотів.
+                <br />
+                Kan - <span> Kunne</span> - міг.
+                <br />
+                Må - <span> Måtte</span> - мав.
+                <br />
+                Bør - <span> Burde</span> - потрібно б було.
+            </StyledRuleDescription>
+            <StyledRuleDescription>
+                Також часто використовуємо минилуй час модальних дієслів у
+                складних реченнях з підрядною частиною -{" "}
+                <span>spurte, fortalte, sa...</span>
+                <StyledRuleExample>
+                    {" "}
+                    Наприклад: "Hun spurte om jeg <span> kunne</span> hjelpe
+                    ham" ("Вона запитала, чи міг я йому допомогти").
+                    <br />
+                    "Hun sa at hun <span>ville</span> gå" ("Вона сказала, що
+                    хотіла піти").
+                </StyledRuleExample>
+            </StyledRuleDescription>
         </StyledRuleWrapper>
     );
 };
