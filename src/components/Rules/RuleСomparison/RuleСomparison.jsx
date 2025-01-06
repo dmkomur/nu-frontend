@@ -6,7 +6,7 @@ import StyledRuleExample from "../../common/rules/RuleExample.styled";
 const RuleСomparison = () => {
     return (
         <StyledRuleWrapper>
-            <StyledRuleHeader>Порівняння (Komarative)</StyledRuleHeader>
+            <StyledRuleHeader>Порівняння (Komparativ)</StyledRuleHeader>
             <StyledRuleDescription>
                 Ми використовуємо порівняння, коли говоримо про щось схоже, в
                 новежській мові це працює досить просто.

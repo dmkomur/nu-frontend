@@ -49,13 +49,7 @@ const RuleNouns = () => {
                     означну форму іменника.
                 </StyledRuleExample>
             </StyledRuleDescription>
-            <StyledAlert>
-                <StyledAlertLabel>Важливо!</StyledAlertLabel>Якщо іменник
-                закінчується на голосну то вона просто відкидається а не
-                дублюється.{" "}
-                <StyledRuleExample>Eple - Epler а не Epleer.</StyledRuleExample>{" "}
-                Що в однині, що в множині.
-            </StyledAlert>
+
             <StyledRuleDescription>
                 <span>Артикль</span> вказує не лише на означену чи неозначену
                 форму але і вказує рід іменника!
@@ -120,6 +114,13 @@ const RuleNouns = () => {
                     два яблука").
                 </StyledRuleExample>
             </StyledRuleDescription>
+            <StyledAlert>
+                <StyledAlertLabel>Важливо!</StyledAlertLabel>Якщо іменник
+                закінчується на голосну то вона просто відкидається а не
+                дублюється.{" "}
+                <StyledRuleExample>Eple - Epler а не Epleer.</StyledRuleExample>{" "}
+                .
+            </StyledAlert>
             <StyledAlert>
                 <StyledAlertLabel>Важливо!</StyledAlertLabel>Важливим винятком є
                 іменники <span>середнього роду</span> що мають лише{" "}

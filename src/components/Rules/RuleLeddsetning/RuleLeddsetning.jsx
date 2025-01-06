@@ -34,7 +34,7 @@ const RuleLeddsetning = () => {
                 Підрядні речення зі сполучниками <span>At</span> (Що) та{" "}
                 <span>Om </span>(Чи). <br />
                 Основна частина речення як завжди будується за принципом{" "}
-                <span>SVO</span>, підрядна частина починається з сполучника{" "}
+                <span>SVO</span>, підрядна частина починається зі сполучника{" "}
                 <span>At</span> або <span>Om </span> але вважається що сполучник
                 займає &quot;нульову&quot; позицію, далі речення будується за
                 загальним принципом із дієсловом на другому місці.
@@ -81,7 +81,7 @@ const RuleLeddsetning = () => {
                 <br />
                 <span>Hva</span> - що.{" "}
                 <StyledRuleExample>
-                    Приклад: &quot;Han spør <span>hva gjør hun</span>&quot; -
+                    Приклад: &quot;Han spør <span>hva hun gjør</span>&quot; -
                     &quot;Він запитує, <span>що вона робить</span>&quot;.
                 </StyledRuleExample>
                 <br />
@@ -206,7 +206,7 @@ const RuleLeddsetning = () => {
                 <StyledRuleExample>
                     &quot;Я маю друга, який живе в Осло&quot;
                 </StyledRuleExample>
-                . Теж саме нам потрібно реалізувати норвежською.
+                . Теж саме нам потрібно реалізувати норвезькою.
                 <br />
                 Основана частина -
                 <StyledRuleExample>

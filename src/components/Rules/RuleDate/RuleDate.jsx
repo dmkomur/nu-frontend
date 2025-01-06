@@ -42,7 +42,7 @@ const RuleDate = () => {
                 <br />
                 <span>Neste uke</span> - наступного тижня.
                 <br />
-                <span>Medcen gang</span> - одразу.
+                <span>Med en gang</span> - одразу.
             </StyledRuleDescription>
             <StyledRuleDescription>
                 Пора року:
