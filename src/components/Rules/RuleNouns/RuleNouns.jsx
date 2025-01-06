@@ -132,6 +132,50 @@ const RuleNouns = () => {
                     склянки").
                 </StyledRuleExample>
             </StyledAlert>
+            <StyledRuleDescription>
+                Багато іменників чоловічого роду, які закінчуються на{" "}
+                <span>-er</span> в однині, ми відмінюємо у множині трохи інакше,
+                ніж інші іменники:
+                <br />
+                <StyledRuleExample>
+                    en innvandrer - innvandreren - innvandrer<span>e</span> -
+                    innvandrer<spna>ne</spna>. <br />
+                    en lærer - læreren - lærer<span>e</span> - lærer
+                    <span>ne</span>.
+                </StyledRuleExample>
+            </StyledRuleDescription>
+            <StyledRuleDescription>
+                Є кілька нюансів використання визначеної та невизначеної форми
+                іменника:
+                <br />
+                Якщо іменник стоїть після "av" ("з/серед") то він ставиться в
+                визначеній формі.
+                <StyledRuleExample>
+                    Наприклад: "Det er mange innvandrere i Norge, og mange{" "}
+                    <span>av</span> innvandrer<span>ne</span>" er gift med andre
+                    innvandrere.{" "}
+                </StyledRuleExample>
+                <br />
+                Ми використовуємо означену форму iменника перед присвійними
+                прикметниками.{" "}
+                <StyledRuleExample>
+                    Наприклад: foreldr<span>ene</span> mine, far<span>en</span>{" "}
+                    min, liv<span>et</span> vårt.
+                </StyledRuleExample>
+                <br />
+                Ми вживаємо неозначену форму після присвійного прикметника та
+                після iменника вказуючого на власника - з "s" закінченням.{" "}
+                <StyledRuleExample>
+                    Наприклад: min alder, mitt liv, pappas jobb.
+                </StyledRuleExample>
+                <br />
+                Якщо іменник стоїть в реченні після числівника то він ставиться
+                в невизначеній формі.{" "}
+                <StyledRuleExample>
+                    Наприклад: "Jeg tror at det er <span>tjue</span> lærer
+                    <span>e</span> på norskkurset".
+                </StyledRuleExample>
+            </StyledRuleDescription>
         </StyledRuleWrapper>
     );
 };

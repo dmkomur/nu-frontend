@@ -72,6 +72,15 @@ const RulePossessive = () => {
                     чоловіка та <span>її</span> чоловіка".
                 </StyledRuleExample>
             </StyledRuleDescription>
+            <StyledAlert>
+                <StyledAlertLabel>Важливо!</StyledAlertLabel>Якщо вам,
+                наприклад, потрібно сказати "Це татова машина", то "власнику"
+                треба добавити букву <span>s</span>.{" "}
+                <StyledRuleExample>
+                    "Dette er pappa<span>s</span> bil"
+                </StyledRuleExample>
+                .
+            </StyledAlert>
         </StyledRuleWrapper>
     );
 };
