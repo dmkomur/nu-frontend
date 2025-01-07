@@ -176,6 +176,16 @@ const RuleNouns = () => {
                     <span>e</span> på norskkurset".
                 </StyledRuleExample>
             </StyledRuleDescription>
+            <StyledRuleDescription>
+                Іноді нам потрібно зробити іменник з дієслова. Це зробити не
+                складно, потрібно відкинути закінчення "е" у дієслова та додати
+                закінчення "<span>ing</span>".
+                <br />
+                <StyledRuleExample>
+                    Наприклад: å forandre - en forandr<span>ing</span>, å
+                    integrere - en intrgrer<span>ing</span>.
+                </StyledRuleExample>
+            </StyledRuleDescription>
         </StyledRuleWrapper>
     );
 };
